@@ -5,7 +5,7 @@ Meta.Author=KimataDev
 Meta.AppConfigId=f381f88b-423a-4752-95a0-46d0c64006d1
 Meta.URL=https://store.steampowered.com/app/834910/ATLAS/
 Meta.MinAMPVersion=2.4.6.6
-Meta.SpecificDockerImage=cubecoders/ampbase:wine8
+Meta.SpecificDockerImage=cubecoders/ampbase:xvfb
 Meta.DockerRequired=False
 Meta.ContainerPolicy=SupportedOnWindows, RecommendedOnLinux
 Meta.ContainerPolicyReason=The server requires Wine to run on Linux. Using a container avoids the need to install this dependency on the host.
@@ -77,7 +77,7 @@ Meta.DisplayImageSource=steam:834910
 App.BaseDirectory=./atlas/1006030/
 App.WorkingDir=1006030
 App.ExecutableWin=1006030\AtlasTools\RedisDatabase\redis-server.exe & 1006030\ShooterGame\Binaries\Win64\ShooterGameServer.exe
-App.ExecutableLinux=/usr/bin/wine
+App.ExecutableLinux=/usr/bin/xvfb-run
 App.LinuxCommandLineArgs={{$PlatformArgs}} Ocean?ServerX=0?ServerY=0?AltSaveDirectoryName=00?ServerAdminPassword=123?MaxPlayers=32?ReservedPlayerSlots=25?QueryPort=57561?Port={{$GamePort}}?SeamlessIP=0.0.0.0 -log -server -NoBattlEye
 App.Ports=@IncludeJson[atlasports.json]
 App.UpdateSources=@IncludeJson[atlasupdates.json]
