@@ -83,4 +83,4 @@ App.Ports=@IncludeJson[atlasports.json]
 App.UpdateSources=@IncludeJson[atlasupdates.json]
 Errors=
 isValid=true
-App.EnvironmentVariables={"LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:%LD_LIBRARY_PATH%", "SteamAppId": "834910"}
+App.EnvironmentVariables={"LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:%LD_LIBRARY_PATH%", "SteamAppId": "834910", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "-all"}
