@@ -15,8 +15,8 @@ App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=true
 App.DisplayName=ATLAS
-App.CommandLineArgs={{$PlatformArgs}} {{$FormattedArgs}}
-App.WindowsCommandLineArgs=Ocean?ServerX=0?ServerY=0?AltSaveDirectoryName=00?ServerAdminPassword=123?MaxPlayers=32?ReservedPlayerSlots=25?QueryPort=57561?Port={{$GamePort}}?SeamlessIP=0.0.0.0 -log -server -NoBattlEye
+App.CommandLineArgs={{$PlatformArgs}} Ocean?ServerX=0?ServerY=0?AltSaveDirectoryName=00?ServerAdminPassword=123?MaxPlayers=32?ReservedPlayerSlots=25?QueryPort=57561?Port={{$GamePort}}?SeamlessIP=0.0.0.0 -log -server -NoBattlEye
+App.WindowsCommandLineArgs=
 App.CommandLineParameterFormat=-{0} "{1}"
 App.CommandLineParameterDelimiter= 
 App.RapidStartup=false
@@ -76,9 +76,9 @@ App.RootDir=./atlas/
 Meta.DisplayImageSource=steam:834910
 App.BaseDirectory=./atlas/1006030/
 App.WorkingDir=1006030
-App.ExecutableWin=1006030\AtlasTools\RedisDatabase\redis-server.exe & 1006030\ShooterGame\Binaries\Win64\ShooterGameServer.exe
+App.ExecutableWin=1006030\ShooterGame\Binaries\Win64\ShooterGameServer.exe
 App.ExecutableLinux=/usr/bin/xvfb-run
-App.LinuxCommandLineArgs=
+App.LinuxCommandLineArgs=-a wine "./AtlasTools/RedisDatabase/redis-server.exe" & -a wine "./ShooterGame/Binaries/Win64/ShooterGameServer.exe" 
 App.Ports=@IncludeJson[atlasports.json]
 App.UpdateSources=@IncludeJson[atlasupdates.json]
 Errors=
