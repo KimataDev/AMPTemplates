@@ -2,6 +2,7 @@ Meta.DisplayName=ATLAS
 Meta.Description=ATLAS Dedicated Server
 Meta.Arch=x86_64
 Meta.Author=KimataDev
+Meta.AppConfigId=f381f88b-423a-4752-95a0-46d0c64006d1
 Meta.URL=https://store.steampowered.com/app/834910/ATLAS/
 Meta.MinAMPVersion=2.4.6.6
 Meta.SpecificDockerImage=cubecoders/ampbase:wine
