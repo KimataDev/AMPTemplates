@@ -76,7 +76,7 @@ App.RootDir=./atlas/
 Meta.DisplayImageSource=steam:834910
 App.BaseDirectory=./atlas/1006030/
 App.WorkingDir=1006030
-App.ExecutableWin=1006030\ShooterGame\Binaries\Win64\ShooterGameServer.exe
+App.ExecutableWin=1006030\AtlasTools\RedisDatabase\redis-server.exe & 1006030\ShooterGame\Binaries\Win64\ShooterGameServer.exe
 App.ExecutableLinux=/usr/bin/wine
 App.LinuxCommandLineArgs={{$PlatformArgs}} Ocean?ServerX=0?ServerY=0?AltSaveDirectoryName=00?ServerAdminPassword=123?MaxPlayers=32?ReservedPlayerSlots=25?QueryPort=57561?Port={{$GamePort}}?SeamlessIP=0.0.0.0 -log -server -NoBattlEye
 App.Ports=@IncludeJson[atlasports.json]
