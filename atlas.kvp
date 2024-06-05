@@ -15,7 +15,7 @@ App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=true
 App.DisplayName=ATLAS
-App.CommandLineArgs={{$PlatformArgs}} {{$FormattedArgs}}
+App.CommandLineArgs={{$PlatformArgs}} Ocean?ServerX=0?ServerY=0?MaxPlayers=30?ReservedPlayerSlots=5?QueryPort=57561?Port={{$GamePort}}?SeamlessIP=1.2.3.4 -NoBattlEye -log -server {{$FormattedArgs}}
 App.WindowsCommandLineArgs=
 App.CommandLineParameterFormat=-{0} "{1}"
 App.CommandLineParameterDelimiter= 
