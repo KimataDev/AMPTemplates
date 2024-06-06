@@ -5,12 +5,5 @@
 		"Name": "Game Port",
 		"Description": "Port for main game traffic",
 		"Ref": "GamePort"
-	},
-	{
-		"Protocol": "TCP",
-		"Port": "6379",
-		"Name": "Redis Port",
-		"Description": "Port for Redis",
-		"Ref": "RedisPort"
 	}
 ]
