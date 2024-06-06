@@ -12,5 +12,5 @@
 		"Name": "Redis Port",
 		"Description": "Port for Redis",
 		"Ref": "RedisPort"
-	},
+	}
 ]
