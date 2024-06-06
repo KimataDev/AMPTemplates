@@ -6,7 +6,6 @@ Meta.AppConfigId=f381f88b-423a-4752-95a0-46d0c64006d1
 Meta.URL=https://store.steampowered.com/app/834910/ATLAS/
 Meta.MinAMPVersion=2.4.6.6
 Meta.SpecificDockerImage=cubecoders/ampbase:wine8
-Meta.ExtraContainerPackages=["x11vnc", "xterm", "redis"]
 Meta.DockerRequired=False
 Meta.ContainerPolicy=SupportedOnWindows, RecommendedOnLinux
 Meta.ContainerPolicyReason=The server requires Wine and Xvfb to run on Linux. Using a container avoids the need to install these dependencies on the host.
