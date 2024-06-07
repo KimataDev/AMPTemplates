@@ -1,4 +1,4 @@
-@echo on
+@echo off
 
 if "%~1" == "" (
     echo Missing settings parameter
