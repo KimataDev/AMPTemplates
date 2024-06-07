@@ -1,14 +1,15 @@
 [
 	{
         "ConfigFile": "AtlasTools/RedisDatabase/redis.conf",
-        "ConfigType": "auto",
+        "ConfigType": "kvp",
         "ConfigFormat": "{0} {1}",
         "Subsections": [
             {
-                "Heading": "$root",
-                "SettingMappings": {
-                    "port": "$RedisPort"
-               }
+				"Heading": "$root",
+				"SettingMappings":
+					{
+						"port": "$RedisPort"
+					}
             }
         ]
     }
