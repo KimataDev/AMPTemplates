@@ -10,15 +10,15 @@ App.CommandLineParameterFormat={0}={1}
 App.Compatibility=None
 App.DisplayName=ATLAS
 App.EnvironmentVariables={"SteamAppId": "834910", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "-all"}
-App.ExecutableLinux=/usr/bin/xvfb-run
-App.ExecutableWin=1006030\RunServer.bat
+App.ExecutableLinux=/usr/bin/wine
+App.ExecutableWin=1006030\ShooterGame\Binaries\Win64\ShooterGameServer.exe
 App.ExitFile=app_exit.lck
-App.ExitMethod=String
-App.ExitString=DoExit
+App.ExitMethod=OS_CLOSE
+App.ExitString=stop
 App.ExitTimeout=30
 App.HasReadableConsole=True
 App.HasWriteableConsole=True
-App.LinuxCommandLineArgs=-a wine "./AtlasTools/RedisDatabase/redis-server.exe" "./AtlasTools/RedisDatabase/redis.conf"
+App.LinuxCommandLineArgs="./ShooterGame/Binaries/Win64/ShooterGameServer.exe"
 App.LiveSettingChangeCommandFormat=set {0} "{1}"
 App.MaxUsers=32
 App.MonitorChildProcessName=^.*{{$WineBaseDir}}ShooterGame\\Binaries\\Win64\\ShooterGameServer\.exe.*Port={{$GamePort}}.*$
