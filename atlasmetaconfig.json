@@ -10,9 +10,14 @@
 				"SettingMappings":
 					{
 						"port": "$RedisPort",
-						"requirepass": "foobared"
+						"requirepass": "$RedisPassword"
 					}
             }
         ]
-    }
+    },
+	{
+		"ConfigFile": "ShooterGame/ServerGrid.ServerOnly.json",
+		"AutoMap": true,
+		"ConfigType": "json"
+	},
 ]
