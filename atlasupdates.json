@@ -6,12 +6,22 @@
         "UpdateSourceData": "1006030",
         "UpdateSourceArgs": "834910"
     },
+	{
+        "UpdateStageName": "Download StartServer.bat",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://raw.githubusercontent.com/KimataDev/AMPTemplates/dev/atlasstartserver.bat",
+        "UpdateSourceArgs": "StartServer.bat",
+        "UpdateSourceTarget": "{{$FullBaseDir}}",
+        "UpdateSourceConditionValue":"true",
+        "OverwriteExistingFiles": true
+    },
     {
         "UpdateStageName":"Initialise Wine",
         "UpdateSourcePlatform":"Linux",
         "UpdateSource":"Executable",
         "UpdateSourceData":"/bin/bash",
-        "UpdateSourceArgs":"-c 'WINEPREFIX=\"{{$FullRootDir}}.wine\" WINEARCH=win64 WINEDEBUG=-all WINEDLLOVERRIDES=\"mscoree,mshtml=\,windows.ui=n" /usr/bin/wineboot --init --update'",
-        "SkipOnFailure":false
+        "UpdateSourceArgs":"-c 'WINEPREFIX=\"{{$FullRootDir}}.wine\" WINEARCH=win64 WINEDEBUG=-all WINEDLLOVERRIDES=\"mscoree,mshtml=,windows.ui=n\" /usr/bin/wineboot --init --update'",
+        "SkipOnFailure": false
     }
 ]
