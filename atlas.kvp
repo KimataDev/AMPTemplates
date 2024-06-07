@@ -18,7 +18,7 @@ App.ExitString=DoExit
 App.ExitTimeout=30
 App.HasReadableConsole=True
 App.HasWriteableConsole=True
-App.LinuxCommandLineArgs=-a wine "./RunServer.bat"
+App.LinuxCommandLineArgs=-a wine cmd /c "./RunServer.bat"
 App.LiveSettingChangeCommandFormat=set {0} "{1}"
 App.MaxUsers=32
 App.MonitorChildProcessName=^.*{{$WineBaseDir}}ShooterGame\\Binaries\\Win64\\ShooterGameServer\.exe.*Port={{$GamePort}}.*$
