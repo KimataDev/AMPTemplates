@@ -13,4 +13,11 @@
 		"Description": "Port for Steam query traffic",
 		"Ref": "QueryPort"
 	},
+	{
+		"Protocol": "UDP",
+		"Port": 27016,
+		"Name": "Redis Port",
+		"Description": "Port for Redis query traffic",
+		"Ref": "RedisPort"
+	}
 ]

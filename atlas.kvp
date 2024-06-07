@@ -11,17 +11,17 @@ App.Compatibility=None
 App.DisplayName=ATLAS
 App.EnvironmentVariables={"SteamAppId": "834910", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "-all"}
 App.ExecutableLinux=/usr/bin/xvfb-run
-App.ExecutableWin=1006030\ShooterGame\Binaries\Win64\ShooterGameServer.exe
+App.ExecutableWin=1006030\RunServer.bat
 App.ExitFile=app_exit.lck
 App.ExitMethod=String
 App.ExitString=DoExit
 App.ExitTimeout=30
 App.HasReadableConsole=True
 App.HasWriteableConsole=True
-App.LinuxCommandLineArgs=-a wine "./ShooterGame/Binaries/Win64/ShooterGameServer.exe"
+App.LinuxCommandLineArgs=-a wine "./RunServer.bat"
 App.LiveSettingChangeCommandFormat=set {0} "{1}"
 App.MaxUsers=32
-App.MonitorChildProcessName=^.*{{$WineBaseDir}}ShooterGame\\Binaries\\Win64\\ShooterGameServer\.exe.*QueryPort={{$QueryPort}}.*$
+App.MonitorChildProcessName=^.*{{$WineBaseDir}}ShooterGame\\Binaries\\Win64\\ShooterGameServer\.exe.*Port={{$GamePort}}.*$
 App.MonitorChildProcessWaitMs=100
 App.Ports=@IncludeJson[atlasports.json]
 App.PrimaryApplicationPortRef=GamePort
