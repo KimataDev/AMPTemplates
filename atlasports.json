@@ -1,6 +1,6 @@
 [
 	{
-		"Protocol": "UDP",
+		"Protocol": "Both",
 		"Port": 7777,
 		"Name": "Game Port",
 		"Description": "Port for game traffic",
@@ -14,7 +14,7 @@
 		"Ref": "RedisPort"
 	},
 	{
-		"Protocol": "UDP",
+		"Protocol": "Both",
 		"Port": 27015,
 		"Name": "Query Port",
 		"Description": "Port for Steam query traffic",
