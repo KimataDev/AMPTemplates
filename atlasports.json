@@ -7,17 +7,17 @@
 		"Ref": "GamePort"
 	},
 	{
+		"Protocol": "TCP",
+		"Port": 7778,
+		"Name": "Redis Port",
+		"Description": "Port for Redis traffic",
+		"Ref": "RedisPort"
+	},
+	{
 		"Protocol": "UDP",
 		"Port": 27015,
 		"Name": "Query Port",
 		"Description": "Port for Steam query traffic",
 		"Ref": "QueryPort"
-	},
-	{
-		"Protocol": "TCP",
-		"Port": 27016,
-		"Name": "Redis Port",
-		"Description": "Port for Redis traffic",
-		"Ref": "RedisPort"
 	}
 ]
