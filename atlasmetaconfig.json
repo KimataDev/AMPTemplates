@@ -1,1 +1,18 @@
-[]
+[
+	{
+		"ConfigFile": "AtlasTools/RedisDatabase/redis.conf",
+		"AutoMap": true,
+		"Importable": true,
+		"ConfigType": "conf",
+		"ConfigFormat":"{0} \"{1}\"",
+		"ConfigFormatRegex":"^(?<key>.+?)\\s* \\s*\"(?<value>.*?)\"$"
+	},
+	{
+		"ConfigFile": "AtlasTools/RedisDatabase/redis.conf",
+		"AutoMap": true,
+		"Importable": true,
+		"ConfigType": "conf",
+		"ConfigFormat":"{0} {1}",
+		"ConfigFormatRegex":"^(?<key>.+?)\\s* \\s*(?<value>[^\"]*?)$"
+	}
+]

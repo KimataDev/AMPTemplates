@@ -17,7 +17,7 @@
 		"Protocol": "TCP",
 		"Port": 27016,
 		"Name": "Redis Port",
-		"Description": "Port for Redis query traffic",
+		"Description": "Port for Redis traffic",
 		"Ref": "RedisPort"
 	}
 ]
