@@ -1,13 +1,13 @@
 [
 	{
-        "ConfigFile":"AtlasTools/RedisDatabase/redis.conf",
-        "ConfigType":"conf",
-        "ConfigFormat":"{0} {1}",
-        "Subsections":[
+        "ConfigFile": "AtlasTools/RedisDatabase/redis.conf",
+        "ConfigType": "conf",
+        "ConfigFormat": "{0} {1}",
+        "Subsections": [
             {
-                "Heading":"$root",
-                "SettingMappings":{
-                    "port":"$RedisPort"
+                "Heading": "$root",
+                "SettingMappings": {
+                    "port": "$RedisPort"
                }
             }
         ]
