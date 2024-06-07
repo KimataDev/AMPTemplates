@@ -1,6 +1,7 @@
 [
 	{
         "ConfigFile": "AtlasTools/RedisDatabase/redis.conf",
+		"AutoMap": true,
         "ConfigType": "kvp",
         "ConfigFormat": "{0} {1}",
         "Subsections": [
@@ -8,7 +9,8 @@
 				"Heading": "$root",
 				"SettingMappings":
 					{
-						"port": "$RedisPort"
+						"port": "$RedisPort",
+						"requirepass": "foobared"
 					}
             }
         ]
