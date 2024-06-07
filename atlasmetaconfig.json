@@ -1,7 +1,7 @@
 [
 	{
         "ConfigFile": "AtlasTools/RedisDatabase/redis.conf",
-        "ConfigType": "conf",
+        "ConfigType": "auto",
         "ConfigFormat": "{0} {1}",
         "Subsections": [
             {
