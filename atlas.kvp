@@ -15,7 +15,7 @@ App.AdminMethod=SourceRCON
 App.HasReadableConsole=true
 App.HasWritableConsole=true
 App.DisplayName=ATLAS
-App.CommandLineArgs=Ocean?ServerX=0?ServerY=0?MaxPlayers=30?ReservedPlayerSlots=5?QueryPort={{$QueryPort}}?Port={{$GamePort}}?SeamlessIP={{$ApplicationIPBinding}} -NoBattlEye -log -server
+App.CommandLineArgs={{$PlatformArgs}} Ocean?ServerX=0?ServerY=0?MaxPlayers=30?ReservedPlayerSlots=5?QueryPort={{$QueryPort}}?Port={{$GamePort}}?SeamlessIP={{$ApplicationIPBinding}} -NoBattlEye -log -server
 App.WindowsCommandLineArgs=
 App.CommandLineParameterFormat={0}={1}
 App.CommandLineParameterDelimiter= 
