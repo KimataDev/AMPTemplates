@@ -14,7 +14,7 @@
 		"Ref": "QueryPort"
 	},
 	{
-		"Protocol": "UDP",
+		"Protocol": "TCP",
 		"Port": 27016,
 		"Name": "Redis Port",
 		"Description": "Port for Redis query traffic",
