@@ -21,7 +21,6 @@ App.HasWriteableConsole=True
 App.LinuxCommandLineArgs=-a wine "./ShooterGame/Binaries/Win64/ShooterGameServer.exe"
 App.LiveSettingChangeCommandFormat=set {0} "{1}"
 App.MaxUsers=32
-App.MonitorChildProcess=False
 App.MonitorChildProcessName=^.*{{$WineBaseDir}}ShooterGame\\Binaries\\Win64\\ShooterGameServer\.exe.*QueryPort={{$QueryPort}}.*$
 App.MonitorChildProcessWaitMs=100
 App.Ports=@IncludeJson[atlasports.json]
