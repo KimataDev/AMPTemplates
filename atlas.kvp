@@ -2,7 +2,7 @@ App.AdminLoginTransform=None
 App.AdminMethod=SourceRCON
 App.AdminPortRef=RemoteAdminPort
 App.ApplicationIPBinding=0.0.0.0
-App.ApplicationReadyMode=RCONConnected
+App.ApplicationReadyMode=Immediate
 App.BaseDirectory=./atlas/1006030/
 App.CommandLineArgs={{$PlatformArgs}} Ocean?ServerX=0?ServerY=0?MaxPlayers=30?ReservedPlayerSlots=5?QueryPort={{$QueryPort}}?Port={{$GamePort}}?SeamlessIP={{$ApplicationIPBinding}} -NoBattlEye -log -server {{$FormattedArgs}}
 App.CommandLineParameterDelimiter=
