@@ -79,5 +79,5 @@ Meta.MetaConfigManifest=atlasmetaconfig.json
 Meta.MinAMPVersion=2.4.6.6
 Meta.OS=3
 Meta.Prerequsites=[]
-Meta.SpecificDockerImage=cubecoders/ampbase:wine8
+Meta.SpecificDockerImage=cubecoders/ampbase:wine
 Meta.URL=https://store.steampowered.com/app/834910/ATLAS/
