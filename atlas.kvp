@@ -9,7 +9,7 @@ App.CommandLineParameterDelimiter=
 App.CommandLineParameterFormat={0}={1}
 App.Compatibility=None
 App.DisplayName=ATLAS
-App.EnvironmentVariables={"SteamAppId": "834910", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "-all"}
+App.EnvironmentVariables={"SteamAppId": "834910", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "+all", WINEDLLOVERRIDES=\"mscoree,mshtml=,windows.ui=n\"}
 App.ExecutableLinux=/usr/bin/wine
 App.ExecutableWin=1006030\StartServer.bat
 App.ExitFile=app_exit.lck
@@ -27,8 +27,8 @@ App.Ports=@IncludeJson[atlasports.json]
 App.PrimaryApplicationPortRef=GamePort
 App.RCONConnectDelaySeconds=30
 App.RCONConnectRetrySeconds=15
-App.RCONHeartbeatCommand=GetGameLog
-App.RCONHeartbeatMinutes=0.09
+App.RCONHeartbeatCommand=ping
+App.RCONHeartbeatMinutes=0
 App.RapidStartup=false
 App.RemoteAdminPassword=
 App.RootDir=./atlas/
