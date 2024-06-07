@@ -1,7 +1,15 @@
 @echo on
+
+if "%1" == "" (
+    echo Missing settings parameter
+    exit /b 1
+)
+
 cd AtlasTools\RedisDatabase
+echo Starting Redis Server...
 start /b redis-server.exe redis.conf
 
 cd ..\..\
 cd ShooterGame\Binaries\Win64
-start /b /wait /high ShooterGameServer.exe Ocean?ServerX=0?ServerY=0?AltSaveDirectoryName=00?ServerAdminPassword=123?MaxPlayers=30?ReservedPlayerSlots=25?QueryPort=27015?Port=7778?SeamlessIP=0.0.0.0 -log -server -NoBattlEye
+echo Starting ATLAS Dedicated Server...
+start /b /wait /high ShooterGameServer.exe "%1"
