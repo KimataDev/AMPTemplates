@@ -50,7 +50,7 @@ App.WakeupMode=Any
 App.TemplateMatchRegex={{(\$?[\w]+)}}
 App.MonitorChildProcess=False
 App.MonitorChildProcessWaitMs=100
-App.MonitorChildProcessName=^.*{{$WineBaseDir}}ShooterGame\\Binaries\\Win64\\ShooterGameServer\.exe.*Port={{$GamePort}}.*$
+App.MonitorChildProcessName=^.*{{$WineBaseDir}}ShooterGame\\Binaries\\Win64\\ShooterGameServer\.exe.*QueryPort={{$QueryPort}}.*$
 App.Compatibility=None
 App.SteamWorkshopDownloadLocation=
 Console.ThrowawayMessageRegex=^(Keep Alive|\[S_API FAIL\] SteamAPI_Init\(\) failed; SteamAPI_IsSteamRunning\(\) failed\.|Server received, But no response!! \n |Setting breakpad minidump AppID = 834910)$
