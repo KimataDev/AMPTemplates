@@ -1,15 +1,1 @@
-[
-	{
-        "DisplayName": "port",
-        "Category": "ATLAS - Server Settings",
-        "Description": "Port for Redis traffic",
-        "Keywords": "",
-        "FieldName": "$RedisPort",
-        "InputType": "hidden",
-        "IsFlagArgument": false,
-        "ParamFieldName": "port",
-        "IncludeInCommandLine": false,
-        "EnumValues": {},
-        "Hidden": true
-    }
-]
+[]
