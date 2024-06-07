@@ -19,5 +19,5 @@
 		"ConfigFile": "ShooterGame/ServerGrid.ServerOnly.json",
 		"AutoMap": true,
 		"ConfigType": "json"
-	},
+	}
 ]
