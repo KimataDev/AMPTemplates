@@ -75,7 +75,6 @@ Meta.DisplayImageSource=steam:834910
 Meta.DisplayName=ATLAS
 Meta.DockerRequired=False
 Meta.EndpointURIFormat=steam://connect/{ip}:{GenericModule.App.Ports.$GamePort}
-Meta.ExtraContainerPackages=["winehq-stable=8.0.2~bookworm-1","wine-stable=8.0.2~bookworm-1","wine-stable-amd64=8.0.2~bookworm-1","wine-stable-i386=8.0.2~bookworm-1"]
 Meta.MetaConfigManifest=atlasmetaconfig.json
 Meta.MinAMPVersion=2.4.6.6
 Meta.OS=3
