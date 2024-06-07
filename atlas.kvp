@@ -9,7 +9,7 @@ App.CommandLineParameterDelimiter=
 App.CommandLineParameterFormat={0}={1}
 App.Compatibility=None
 App.DisplayName=ATLAS
-App.EnvironmentVariables={"SteamAppId": "834910", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "+all", WINEDLLOVERRIDES=\"mscoree,mshtml=,windows.ui=n\"}
+App.EnvironmentVariables={"SteamAppId": "834910", "DISPLAY": ":0", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "+all"}
 App.ExecutableLinux=/usr/bin/wine
 App.ExecutableWin=1006030\StartServer.bat
 App.ExitFile=app_exit.lck
