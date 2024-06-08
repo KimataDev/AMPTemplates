@@ -1,19 +1,9 @@
 [
 	{
         "ConfigFile": "AtlasTools/RedisDatabase/redis.conf",
-        "ConfigType": "kvp",
-        "ConfigFormat": "{0} {1}",
-		"ConfigFormatRegex":"^(?:# )?(?<key>.+?) ?(?<value>.*?)$",
-        "Subsections": [
-            {
-				"Heading": "$root",
-				"SettingMappings":
-					{
-						"port": "$RedisPort",
-						"requirepass": "$RedisPassword"
-					}
-            }
-        ]
+        "AutoMap": true,
+		"ConfigType": "template",
+		"ConfigFileTemplate": "atlas/AMP_redis.conf"
     },
 	{
 		"ConfigFile": "ShooterGame/ServerGrid.ServerOnly.json",
