@@ -176,7 +176,7 @@
 	{
 		"DisplayName": "Reserved Player Slots",
 		"Category": "ATLAS Server Settings",
-		"Description": "Set the maximum number of players allowed on the server",
+		"Description": "Set the maximum number of reserved players allowed on the server, even with a limit in place",
 		"Keywords": "reserved,slots",
 		"FieldName": "ReservedPlayerSlots",
 		"InputType": "number",
