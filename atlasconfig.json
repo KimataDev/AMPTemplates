@@ -9,7 +9,7 @@
 		"IsFlagArgument": false,
 		"ParamFieldName": "$.DatabaseConnections.Password",
 		"IncludeInCommandLine": false,
-		"DefaultValue": "{{randomdigits(15)}}",
+		"DefaultValue": "{{randomdigits(8)}}",
 		"EnumValues": {}
 	}
 ]
