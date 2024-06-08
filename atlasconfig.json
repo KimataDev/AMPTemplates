@@ -73,7 +73,7 @@
 			
 		},
 		"Hidden": true
-	}
+	},
 	{
 		"DisplayName": "Server Name",
 		"Category": "ATLAS Server Settings",
