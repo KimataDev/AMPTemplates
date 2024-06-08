@@ -20,11 +20,11 @@ set /p input=
 if /i "%input%"=="stop" (
     echo Stopping Server...
 	taskkill /f /im redis-server.exe
-    taskkill /f /im ShooterGameServer.exe
-    exit /b
-    exit /b
+	taskkill /f /im ShooterGameServer.exe
+	exit /b
+	exit /b
 ) else (
-    echo Undefined command: %input%
+	echo Undefined command: %input%
 )
 
 goto inputLoop
