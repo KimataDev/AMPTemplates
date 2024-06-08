@@ -21,7 +21,7 @@ App.HasWriteableConsole=True
 App.LinuxCommandLineArgs="./StartServer.bat"
 App.LiveSettingChangeCommandFormat=set {0} "{1}"
 App.MaxUsers=32
-App.MonitorChildProcessName=
+App.MonitorChildProcessName=^.*{{ServerExecutable}}\.exe.*Port={{$GamePort}}.*$
 App.MonitorChildProcessWaitMs=100
 App.Ports=@IncludeJson[atlasports.json]
 App.PrimaryApplicationPortRef=GamePort
