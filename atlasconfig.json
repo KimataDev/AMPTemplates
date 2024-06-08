@@ -1,5 +1,18 @@
 [
 	{
+        "DisplayName": "Redis Port",
+        "Category": "ATLAS - Server Settings",
+        "Description": "",
+        "Keywords": "",
+        "FieldName": "$RedisPort",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "RedisPort",
+        "IncludeInCommandLine": false,
+        "EnumValues":{},
+		"Hidden": true,
+    },
+	{
 		"DisplayName": "Redis Password",
 		"Category": "ATLAS - Server Settings",
 		"Description": "Sets the password for the Redis Server.",
@@ -7,7 +20,7 @@
 		"FieldName": "$RedisPassword",
 		"InputType": "password",
 		"IsFlagArgument": false,
-		"ParamFieldName": "$.Password",
+		"ParamFieldName": "RedisPassword",
 		"IncludeInCommandLine": false,
 		"DefaultValue": "{{randomdigits(8)}}",
 		"EnumValues": {}
