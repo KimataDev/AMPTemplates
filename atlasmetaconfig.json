@@ -17,7 +17,7 @@
 	{
 		"ConfigFile": "ShooterGame/ServerGrid.ServerOnly.json",
 		"AutoMap": true,
-		"ConfigType": "json",
-		"ConfigFileTemplate": "atlas/AMP-ServerGrid.ServerOnly.json"
+		"ConfigType": "template",
+		"ConfigFileTemplate": "atlas/AMP_ServerGrid.ServerOnly.json"
 	}
 ]
