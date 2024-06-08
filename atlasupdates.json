@@ -7,7 +7,18 @@
         "UpdateSourceArgs": "834910"
     },
 	{
-        "UpdateStageName": "Download StartServer.bat",
+        "UpdateStageName": "ServerGrid Download",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://raw.githubusercontent.com/KimataDev/AMPTemplates/dev/extras/atlas/ServerGrid.zip",
+        "UpdateSourceTarget": "{{$FullBaseDir}}ShooterGame",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+		"OneShot": true
+    },
+	{
+        "UpdateStageName": "StartServer.bat Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://raw.githubusercontent.com/KimataDev/AMPTemplates/dev/atlasstartserver.bat",
