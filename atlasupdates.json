@@ -27,6 +27,15 @@
         "OverwriteExistingFiles": true
     },
 	{
+        "UpdateStageName": "Redis Template Download",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://github.com/KimataDev/AMPTemplates/raw/dev/atlasredistemplate.conf",
+        "UpdateSourceArgs": "AMP_redis.conf",
+        "UpdateSourceTarget": "{{$FullRootDir}}",
+        "OverwriteExistingFiles": true
+    },
+	{
         "UpdateStageName": "ServerGrid Template Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
