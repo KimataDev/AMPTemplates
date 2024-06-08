@@ -86,6 +86,32 @@
         "EnumValues": {}
 	},
 	{
+        "DisplayName": "Map",
+        "Category": "ATLAS Server Settings",
+        "Description": "Set the map for the server. If Custom is selected, Custom Map Name must also be set",
+        "Keywords": "map",
+        "FieldName": "Map",
+        "InputType": "enum",
+        "ParamFieldName": "Map",
+        "DefaultValue": "Ocean",
+        "EnumValues": {
+            "Ocean": "Ocean",
+            "{{CustomMap}}": "--Custom--"
+        }
+    },
+    {
+        "DisplayName":"Custom Map Name",
+        "Category":"ATLAS Server Settings",
+        "Description":"Sets a custom map for the server. \"Custom\" type must be selected under Map",
+        "Keywords": "custom,map",
+        "FieldName": "CustomMap",
+        "InputType": "text",
+        "ParamFieldName": "CustomMap",
+        "DefaultValue": "",
+        "Placeholder": "Ocean_Evolved",
+        "EnumValues": {}
+    },
+	{
 		"DisplayName": "Player Limit",
         "Category": "ATLAS Server Settings",
         "Description": "Set the maximum number of players allowed on the server",
@@ -124,6 +150,32 @@
         "ParamFieldName": "WorldGridSize",
         "DefaultValue": "1400000.0",
         "Placeholder": "1400000.0",
+        "EnumValues": {} 
+	},
+	{
+		"DisplayName": "World Grid X",
+        "Category": "ATLAS Server Settings",
+        "Description": "Set the grid x for the world",
+        "Keywords": "grid,x",
+        "FieldName": "WorldGridX",
+        "InputType": "number",
+        "MinValue": "0",
+        "ParamFieldName": "WorldGridX",
+        "DefaultValue": "0",
+        "Placeholder": "0",
+        "EnumValues": {} 
+	},
+	{
+		"DisplayName": "World Grid Y",
+        "Category": "ATLAS Server Settings",
+        "Description": "Set the grid y for the world",
+        "Keywords": "grid,y",
+        "FieldName": "WorldGridY",
+        "InputType": "number",
+        "MinValue": "0",
+        "ParamFieldName": "WorldGridY",
+        "DefaultValue": "0",
+        "Placeholder": "0",
         "EnumValues": {} 
 	},
 	{

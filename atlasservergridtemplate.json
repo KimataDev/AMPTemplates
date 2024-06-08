@@ -24,10 +24,10 @@
   "discoZonesImagePath": "Resources/discoZoneBox.png",
   "servers": [
     {
-      "gridX": 0,
-      "gridY": 0,
+      "gridX": {{WorldGridX}},
+      "gridY": {{WorldGridY}},
       "MachineIdTag": "",
-      "ip": "",
+      "ip": "{{$ApplicationIPBinding}}",
       "name": "{{ServerName}}",
       "port": {{QueryPort}},
       "gamePort": {{GamePort}},
