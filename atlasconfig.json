@@ -100,9 +100,9 @@
         }
     },
     {
-        "DisplayName":"Custom Map Name",
-        "Category":"ATLAS Server Settings",
-        "Description":"Sets a custom map for the server. \"Custom\" type must be selected under Map",
+        "DisplayName": "Custom Map Name",
+        "Category": "ATLAS Server Settings",
+        "Description": "Set a custom map for the server. \"Custom\" type must be selected under Map",
         "Keywords": "custom,map",
         "FieldName": "CustomMap",
         "InputType": "text",
