@@ -39,7 +39,7 @@
         "UpdateStageName": "ServerGrid Template Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://github.com/KimataDev/AMPTemplates/raw/dev/atlasservergridtemplate.json",
+        "UpdateSourceData": "https://github.com/KimataDev/AMPTemplates/raw/dev/atlasservergridserveronlytemplate.json",
         "UpdateSourceArgs": "AMP_ServerGrid.ServerOnly.json",
         "UpdateSourceTarget": "{{$FullRootDir}}",
         "OverwriteExistingFiles": true

@@ -19,5 +19,12 @@
 		"Name": "Query Port",
 		"Description": "Port for Steam query traffic",
 		"Ref": "QueryPort"
+	},
+	{
+		"Protocol": "Both",
+		"Port": 27016,
+		"Name": "Seamless Port",
+		"Description": "Port for Seamless traffic",
+		"Ref": "SeamlessPort"
 	}
 ]
