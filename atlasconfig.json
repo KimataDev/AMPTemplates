@@ -4,7 +4,7 @@
 		"Category": "ATLAS - Server Settings",
 		"Description": "Sets the password for the Redis Server.",
 		"Keywords": "",
-		"FieldName": "RedisPassword",
+		"FieldName": "$RedisPassword",
 		"InputType": "password",
 		"IsFlagArgument": false,
 		"ParamFieldName": "$.DatabaseConnections.Password",
