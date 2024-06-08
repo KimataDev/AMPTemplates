@@ -1,5 +1,5 @@
 App.AdminLoginTransform=None
-App.AdminMethod=SourceRCON
+App.AdminMethod=STDIO
 App.AdminPortRef=RemoteAdminPort
 App.ApplicationIPBinding=0.0.0.0
 App.ApplicationReadyMode=Immediate
