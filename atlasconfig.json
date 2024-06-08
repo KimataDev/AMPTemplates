@@ -7,7 +7,7 @@
 		"FieldName": "$RedisPassword",
 		"InputType": "password",
 		"IsFlagArgument": false,
-		"ParamFieldName": "$.DatabaseConnections.Password",
+		"ParamFieldName": "$.Password",
 		"IncludeInCommandLine": false,
 		"DefaultValue": "{{randomdigits(8)}}",
 		"EnumValues": {}
