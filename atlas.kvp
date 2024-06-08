@@ -4,7 +4,7 @@ App.AdminPortRef=0
 App.ApplicationIPBinding=0.0.0.0
 App.ApplicationReadyMode=Immediate
 App.BaseDirectory=./atlas/1006030/
-App.CommandLineArgs={{$PlatformArgs}} {{Map}}?ServerX={{WorldGridX}}?ServerY={{WorldGridY}}?MaxPlayers={{$MaxUsers}}?ReservedPlayerSlots={{ReservedPlayerSlots}}?QueryPort={{$QueryPort}}?Port={{$GamePort}}?SeamlessIP={{$ApplicationIPBinding}} -NoBattlEye -log -server {{$FormattedArgs}}
+App.CommandLineArgs={{$PlatformArgs}} {{Map}}?ServerX={{WorldGridX}}?ServerY={{WorldGridY}}?MaxPlayers={{$MaxUsers}}?ReservedPlayerSlots={{ReservedPlayerSlots}}?QueryPort={{$QueryPort}}?Port={{$GamePort}}?RCONEnabled={{RCONEnabled}}?RCONPort={{$RCONPort}}?SeamlessIP={{$ApplicationIPBinding}} -NoBattlEye -log -server {{$FormattedArgs}}
 App.CommandLineParameterDelimiter=
 App.CommandLineParameterFormat={0}={1}
 App.Compatibility=None

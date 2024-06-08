@@ -1,208 +1,269 @@
 [
 	{
-        "DisplayName": "IP Binding",
-        "Category": "ATLAS Server Settings",
-        "Description": "",
-        "Keywords": "",
-        "FieldName": "$ApplicationIPBinding",
-        "InputType": "text",
+		"DisplayName": "IP Binding",
+		"Category": "ATLAS Server Settings",
+		"Description": "",
+		"Keywords": "",
+		"FieldName": "$ApplicationIPBinding",
+		"InputType": "text",
 		"IsFlagArgument": false,
-        "ParamFieldName": "ServerIP",
+		"ParamFieldName": "ServerIP",
 		"IncludeInCommandLine": false,
-        "EnumValues": {},
-		"Hidden": true,
-    },
-	{
-        "DisplayName": "Game Port",
-        "Category": "ATLAS Server Settings",
-        "Description": "",
-        "Keywords": "",
-        "FieldName": "$GamePort",
-        "InputType": "number",
-        "IsFlagArgument": false,
-        "ParamFieldName": "GamePort",
-        "IncludeInCommandLine": false,
-        "EnumValues": {},
-		"Hidden": true,
-    },
-	{
-        "DisplayName": "Redis Port",
-        "Category": "ATLAS Server Settings",
-        "Description": "",
-        "Keywords": "",
-        "FieldName": "$RedisPort",
-        "InputType": "number",
-        "IsFlagArgument": false,
-        "ParamFieldName": "RedisPort",
-        "IncludeInCommandLine": false,
-        "EnumValues": {},
-		"Hidden": true,
-    },
-	{
-        "DisplayName": "Query Port",
-        "Category": "ATLAS Server Settings",
-        "Description": "",
-        "Keywords": "",
-        "FieldName": "$QueryPort",
-        "InputType": "number",
-        "IsFlagArgument": false,
-        "ParamFieldName": "QueryPort",
-        "IncludeInCommandLine": false,
-        "EnumValues": {},
-		"Hidden": true,
-    },
-	{
-        "DisplayName": "Seamless Port",
-        "Category": "ATLAS Server Settings",
-        "Description": "",
-        "Keywords": "",
-        "FieldName": "$SeamlessPort",
-        "InputType": "number",
-        "IsFlagArgument": false,
-        "ParamFieldName": "SeamlessPort",
-        "IncludeInCommandLine": false,
-        "EnumValues": {},
-		"Hidden": true,
-    },
-	{
-        "DisplayName": "Server Name",
-        "Category": "ATLAS Server Settings",
-        "Description": "Set the name of the server as it appears publicly",
-        "Keywords": "server,name",
-        "FieldName": "ServerName",
-        "InputType": "text",
-        "ParamFieldName": "ServerName",
-        "DefaultValue": "AMP Powered ATLAS Server",
-        "EnumValues": {}
-    },
-	{
-        "DisplayName": "World Friendly Name",
-        "Category": "ATLAS Server Settings",
-        "Description": "Set the world friendly name of the server",
-        "Keywords": "friendly",
-        "FieldName": "WorldFriendlyName",
-        "InputType": "text",
-        "ParamFieldName": "WorldFriendlyName",
-        "DefaultValue": "AMP Powered ATLAS Server",
-        "EnumValues": {}
-    },
-	{
-		"DisplayName": "World Password",
-        "Category": "ATLAS Server Settings",
-        "Description": "Set the password for players to join the server",
-        "Keywords": "server,password,serverpassword",
-        "FieldName": "WorldPassword",
-        "InputType": "password",
-        "ParamFieldName": "WorldPassword",
-        "IncludeInCommandLine": false,
-        "DefaultValue": "",
-        "EnumValues": {}
+		"EnumValues": {
+			
+		},
+		"Hidden": true
 	},
 	{
-        "DisplayName": "Map",
-        "Category": "ATLAS Server Settings",
-        "Description": "Set the map for the server. If Custom is selected, Custom Map Name must also be set",
-        "Keywords": "map",
-        "FieldName": "Map",
-        "InputType": "enum",
-        "ParamFieldName": "Map",
-        "DefaultValue": "Ocean",
-        "EnumValues": {
-            "Ocean": "Ocean",
-            "{{CustomMap}}": "--Custom--"
-        }
-    },
-    {
-        "DisplayName": "Custom Map Name",
-        "Category": "ATLAS Server Settings",
-        "Description": "Set a custom map for the server. \"Custom\" type must be selected under Map",
-        "Keywords": "custom,map",
-        "FieldName": "CustomMap",
-        "InputType": "text",
-        "ParamFieldName": "CustomMap",
-        "DefaultValue": "",
-        "Placeholder": "Ocean_Evolved",
-        "EnumValues": {}
-    },
+		"DisplayName": "Game Port",
+		"Category": "ATLAS Server Settings",
+		"Description": "",
+		"Keywords": "",
+		"FieldName": "$GamePort",
+		"InputType": "number",
+		"IsFlagArgument": false,
+		"ParamFieldName": "GamePort",
+		"IncludeInCommandLine": false,
+		"EnumValues": {
+			
+		},
+		"Hidden": true
+	},
+	{
+		"DisplayName": "Redis Port",
+		"Category": "ATLAS Server Settings",
+		"Description": "",
+		"Keywords": "",
+		"FieldName": "$RedisPort",
+		"InputType": "number",
+		"IsFlagArgument": false,
+		"ParamFieldName": "RedisPort",
+		"IncludeInCommandLine": false,
+		"EnumValues": {
+			
+		},
+		"Hidden": true
+	},
+	{
+		"DisplayName": "Query Port",
+		"Category": "ATLAS Server Settings",
+		"Description": "",
+		"Keywords": "",
+		"FieldName": "$QueryPort",
+		"InputType": "number",
+		"IsFlagArgument": false,
+		"ParamFieldName": "QueryPort",
+		"IncludeInCommandLine": false,
+		"EnumValues": {
+			
+		},
+		"Hidden": true
+	},
+	{
+		"DisplayName": "Seamless Port",
+		"Category": "ATLAS Server Settings",
+		"Description": "",
+		"Keywords": "",
+		"FieldName": "$SeamlessPort",
+		"InputType": "number",
+		"IsFlagArgument": false,
+		"ParamFieldName": "SeamlessPort",
+		"IncludeInCommandLine": false,
+		"EnumValues": {
+			
+		},
+		"Hidden": true
+	},
+	{
+		"DisplayName": "RCON Port",
+		"Category": "ATLAS Server Settings",
+		"Description": "",
+		"Keywords": "",
+		"FieldName": "$RCONPort",
+		"InputType": "number",
+		"IsFlagArgument": false,
+		"ParamFieldName": "RCONPort",
+		"IncludeInCommandLine": false,
+		"EnumValues": {
+			
+		},
+		"Hidden": true
+	},
+	{
+		"DisplayName": "Server Name",
+		"Category": "ATLAS Server Settings",
+		"Description": "Set the name of the server as it appears publicly",
+		"Keywords": "server,name",
+		"FieldName": "ServerName",
+		"InputType": "text",
+		"ParamFieldName": "ServerName",
+		"DefaultValue": "AMP Powered ATLAS Server",
+		"EnumValues": {
+			
+		}
+	},
+	{
+		"DisplayName": "World Friendly Name",
+		"Category": "ATLAS Server Settings",
+		"Description": "Set the world friendly name of the server",
+		"Keywords": "friendly",
+		"FieldName": "WorldFriendlyName",
+		"InputType": "text",
+		"ParamFieldName": "WorldFriendlyName",
+		"DefaultValue": "AMP Powered ATLAS Server",
+		"EnumValues": {
+			
+		}
+	},
+	{
+		"DisplayName": "World Password",
+		"Category": "ATLAS Server Settings",
+		"Description": "Set the password for players to join the server",
+		"Keywords": "server,password,serverpassword",
+		"FieldName": "WorldPassword",
+		"InputType": "password",
+		"ParamFieldName": "WorldPassword",
+		"IncludeInCommandLine": false,
+		"DefaultValue": "",
+		"EnumValues": {
+			
+		}
+	},
+	{
+		"DisplayName": "Map",
+		"Category": "ATLAS Server Settings",
+		"Description": "Set the map for the server. If Custom is selected, Custom Map Name must also be set",
+		"Keywords": "map",
+		"FieldName": "Map",
+		"InputType": "enum",
+		"ParamFieldName": "Map",
+		"DefaultValue": "Ocean",
+		"EnumValues": {
+			"Ocean": "Ocean",
+			"{{CustomMap}}": "--Custom--"
+		}
+	},
+	{
+		"DisplayName": "Custom Map Name",
+		"Category": "ATLAS Server Settings",
+		"Description": "Set a custom map for the server. \"Custom\" type must be selected under Map",
+		"Keywords": "custom,map",
+		"FieldName": "CustomMap",
+		"InputType": "text",
+		"ParamFieldName": "CustomMap",
+		"DefaultValue": "",
+		"Placeholder": "Ocean_Evolved",
+		"EnumValues": {
+			
+		}
+	},
 	{
 		"DisplayName": "Player Limit",
-        "Category": "ATLAS Server Settings",
-        "Description": "Set the maximum number of players allowed on the server",
-        "Keywords": "max,players,limit,maxplayers",
-        "FieldName": "$MaxUsers",
-        "InputType": "number",
-        "MinValue": "1",
-        "ParamFieldName": "MaxPlayers",
-        "DefaultValue": "32",
-        "Placeholder": "32",
-        "Suffix": "players",
-        "EnumValues": {} 
+		"Category": "ATLAS Server Settings",
+		"Description": "Set the maximum number of players allowed on the server",
+		"Keywords": "max,players,limit,maxplayers",
+		"FieldName": "$MaxUsers",
+		"InputType": "number",
+		"MinValue": "1",
+		"ParamFieldName": "MaxPlayers",
+		"DefaultValue": "32",
+		"Placeholder": "32",
+		"Suffix": "players",
+		"EnumValues": {
+			
+		}
 	},
 	{
 		"DisplayName": "Reserved Player Slots",
-        "Category": "ATLAS Server Settings",
-        "Description": "Set the maximum number of players allowed on the server",
-        "Keywords": "reserved,slots",
-        "FieldName": "ReservedPlayerSlots",
-        "InputType": "number",
-        "MinValue": "0",
-        "ParamFieldName": "ReservedPlayerSlots",
-        "DefaultValue": "0",
-        "Placeholder": "0",
-        "Suffix": "players",
-        "EnumValues": {} 
+		"Category": "ATLAS Server Settings",
+		"Description": "Set the maximum number of players allowed on the server",
+		"Keywords": "reserved,slots",
+		"FieldName": "ReservedPlayerSlots",
+		"InputType": "number",
+		"MinValue": "0",
+		"ParamFieldName": "ReservedPlayerSlots",
+		"DefaultValue": "0",
+		"Placeholder": "0",
+		"Suffix": "players",
+		"EnumValues": {
+			
+		}
 	},
 	{
 		"DisplayName": "World Grid Size",
-        "Category": "ATLAS Server Settings",
-        "Description": "Set the grid size for the world",
-        "Keywords": "grid,size",
-        "FieldName": "WorldGridSize",
-        "InputType": "number",
-        "MinValue": "1",
-        "ParamFieldName": "WorldGridSize",
-        "DefaultValue": "1400000.0",
-        "Placeholder": "1400000.0",
-        "EnumValues": {} 
+		"Category": "ATLAS Server Settings",
+		"Description": "Set the grid size for the world",
+		"Keywords": "grid,size",
+		"FieldName": "WorldGridSize",
+		"InputType": "number",
+		"MinValue": "1",
+		"ParamFieldName": "WorldGridSize",
+		"DefaultValue": "1400000.0",
+		"Placeholder": "1400000.0",
+		"EnumValues": {
+			
+		}
 	},
 	{
 		"DisplayName": "World Grid X",
-        "Category": "ATLAS Server Settings",
-        "Description": "Set the grid x for the world",
-        "Keywords": "grid,x",
-        "FieldName": "WorldGridX",
-        "InputType": "number",
-        "MinValue": "0",
-        "ParamFieldName": "WorldGridX",
-        "DefaultValue": "0",
-        "Placeholder": "0",
-        "EnumValues": {} 
+		"Category": "ATLAS Server Settings",
+		"Description": "Set the grid x for the world",
+		"Keywords": "grid,x",
+		"FieldName": "WorldGridX",
+		"InputType": "number",
+		"MinValue": "0",
+		"ParamFieldName": "WorldGridX",
+		"DefaultValue": "0",
+		"Placeholder": "0",
+		"EnumValues": {
+			
+		}
 	},
 	{
 		"DisplayName": "World Grid Y",
-        "Category": "ATLAS Server Settings",
-        "Description": "Set the grid y for the world",
-        "Keywords": "grid,y",
-        "FieldName": "WorldGridY",
-        "InputType": "number",
-        "MinValue": "0",
-        "ParamFieldName": "WorldGridY",
-        "DefaultValue": "0",
-        "Placeholder": "0",
-        "EnumValues": {} 
+		"Category": "ATLAS Server Settings",
+		"Description": "Set the grid y for the world",
+		"Keywords": "grid,y",
+		"FieldName": "WorldGridY",
+		"InputType": "number",
+		"MinValue": "0",
+		"ParamFieldName": "WorldGridY",
+		"DefaultValue": "0",
+		"Placeholder": "0",
+		"EnumValues": {
+			
+		}
 	},
 	{
 		"DisplayName": "World ATLAS ID",
-        "Category": "ATLAS Server Settings",
-        "Description": "Set the ATLAS ID for the world",
-        "Keywords": "atlas,id",
-        "FieldName": "WorldAtlasId",
-        "InputType": "number",
-        "MinValue": "1",
-        "ParamFieldName": "WorldAtlasId",
-        "DefaultValue": "2129977744",
-        "Placeholder": "2129977744",
-        "EnumValues": {} 
+		"Category": "ATLAS Server Settings",
+		"Description": "Set the ATLAS ID for the world",
+		"Keywords": "atlas,id",
+		"FieldName": "WorldAtlasId",
+		"InputType": "number",
+		"MinValue": "1",
+		"ParamFieldName": "WorldAtlasId",
+		"DefaultValue": "2129977744",
+		"Placeholder": "2129977744",
+		"EnumValues": {
+			
+		}
+	},
+	{
+		"DisplayName": "RCON Enable",
+		"Category": "ATLAS Server Settings",
+		"Description": "Enable or disable RCON",
+		"Keywords": "rcon,enabled",
+		"FieldName": "RCONEnabled",
+		"InputType": "checkbox",
+		"IsFlagArgument": false,
+		"ParamFieldName": "RCONEnabled",
+		"IncludeInCommandLine": false,
+		"DefaultValue": "true",
+		"EnumValues": {
+			"True": "true",
+			"False": "false"
+		}
 	},
 	{
 		"DisplayName": "Redis Password",
@@ -215,6 +276,8 @@
 		"ParamFieldName": "RedisPassword",
 		"IncludeInCommandLine": false,
 		"DefaultValue": "{{randomdigits(8)}}",
-		"EnumValues": {}
+		"EnumValues": {
+			
+		}
 	}
 ]
