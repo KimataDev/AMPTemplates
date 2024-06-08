@@ -73,22 +73,7 @@
 			
 		},
 		"Hidden": true
-	},
-	{
-		"DisplayName": "RCON Port",
-		"Category": "ATLAS Server Settings",
-		"Description": "",
-		"Keywords": "",
-		"FieldName": "$RCONPort",
-		"InputType": "number",
-		"IsFlagArgument": false,
-		"ParamFieldName": "RCONPort",
-		"IncludeInCommandLine": false,
-		"EnumValues": {
-			
-		},
-		"Hidden": true
-	},
+	}
 	{
 		"DisplayName": "Server Name",
 		"Category": "ATLAS Server Settings",
@@ -247,22 +232,6 @@
 		"Placeholder": "2129977744",
 		"EnumValues": {
 			
-		}
-	},
-	{
-		"DisplayName": "RCON Enable",
-		"Category": "ATLAS Server Settings",
-		"Description": "Enable or disable RCON",
-		"Keywords": "rcon,enabled",
-		"FieldName": "RCONEnabled",
-		"InputType": "checkbox",
-		"IsFlagArgument": false,
-		"ParamFieldName": "RCONEnabled",
-		"IncludeInCommandLine": false,
-		"DefaultValue": "true",
-		"EnumValues": {
-			"True": "true",
-			"False": "false"
 		}
 	},
 	{

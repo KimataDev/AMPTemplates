@@ -26,12 +26,5 @@
 		"Name": "Seamless Port",
 		"Description": "Port for Seamless traffic",
 		"Ref": "SeamlessPort"
-	},
-	{
-		"Protocol": "Both",
-		"Port": 27017,
-		"Name": "RCON Port",
-		"Description": "Port for RCON traffic",
-		"Ref": "RCONPort"
 	}
 ]
