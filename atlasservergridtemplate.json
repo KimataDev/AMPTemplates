@@ -1,9 +1,9 @@
 {
   "BaseServerArgs": "",
-  "gridSize": 1400000.0,
+  "gridSize": {{WorldGridSize}},
   "MetaWorldURL": "",
   "WorldFriendlyName": "{{WorldFriendlyName}}",
-  "WorldAtlasId": "2129977744",
+  "WorldAtlasId": "{{WorldAtlasId}}",
   "AuthListURL": "",
   "WorldAtlasPassword": "{{WorldPassword}}",
   "ModIDs": "",
