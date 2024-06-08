@@ -27,6 +27,15 @@
         "OverwriteExistingFiles": true
     },
 	{
+        "UpdateStageName": "ServerGrid Template Download",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "ttps://github.com/KimataDev/AMPTemplates/raw/dev/atlasservergridtemplate.json",
+        "UpdateSourceArgs": "AMP_ServerGrid.ServerOnly.json",
+        "UpdateSourceTarget": "{{$FullRootDir}}",
+        "OverwriteExistingFiles": true
+    }
+	{
         "UpdateStageName": "Winescript Download",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "FetchURL",
