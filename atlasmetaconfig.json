@@ -3,6 +3,7 @@
         "ConfigFile": "AtlasTools/RedisDatabase/redis.conf",
         "ConfigType": "kvp",
         "ConfigFormat": "{0} {1}",
+		"ConfigFormatRegex":"^(?:# )?(?<key>.+?) ?(?<value>.*?)$",
         "Subsections": [
             {
 				"Heading": "$root",
