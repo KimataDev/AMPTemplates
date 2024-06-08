@@ -1,5 +1,18 @@
 [
 	{
+        "DisplayName": "IP Binding",
+        "Category": "ATLAS Server Settings",
+        "Description": "",
+        "Keywords": "",
+        "FieldName": "$ApplicationIPBinding",
+        "InputType": "text",
+		"IsFlagArgument": false,
+        "ParamFieldName": "ServerIP",
+		"IncludeInCommandLine": false,
+        "EnumValues": {},
+		"Hidden": true,
+    },
+	{
         "DisplayName": "Game Port",
         "Category": "ATLAS Server Settings",
         "Description": "",
@@ -196,7 +209,7 @@
 		"Category": "ATLAS Server Settings",
 		"Description": "Set the password for the Redis Server",
 		"Keywords": "",
-		"FieldName": "$RedisPassword",
+		"FieldName": "RedisPassword",
 		"InputType": "password",
 		"IsFlagArgument": false,
 		"ParamFieldName": "RedisPassword",
