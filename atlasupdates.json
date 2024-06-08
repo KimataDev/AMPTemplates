@@ -10,7 +10,7 @@
         "UpdateStageName": "ServerGrid Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://raw.githubusercontent.com/KimataDev/AMPTemplates/dev/extras/atlas/ServerGrid.zip",
+        "UpdateSourceData": "https://github.com/KimataDev/AMPTemplates/raw/dev/extras/atlas/ServerGrid.zip",
         "UpdateSourceTarget": "{{$FullBaseDir}}ShooterGame",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": false,
@@ -21,7 +21,7 @@
         "UpdateStageName": "StartServer.bat Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://raw.githubusercontent.com/KimataDev/AMPTemplates/dev/atlasstartserver.bat",
+        "UpdateSourceData": "https://github.com/KimataDev/AMPTemplates/raw/dev/atlasstartserver.bat",
         "UpdateSourceArgs": "StartServer.bat",
         "UpdateSourceTarget": "{{$FullBaseDir}}",
         "OverwriteExistingFiles": true
@@ -30,7 +30,7 @@
         "UpdateStageName": "Winescript Download",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://raw.githubusercontent.com/KimataDev/AMPTemplates/dev/atlaswinescript.sh",
+        "UpdateSourceData": "https://github.com/KimataDev/AMPTemplates/raw/dev/atlaswinescript.sh",
         "UpdateSourceArgs": "winescript.sh",
         "UpdateSourceTarget": "{{$FullInstanceDir}}",
         "OverwriteExistingFiles": true
