@@ -207,17 +207,19 @@
 		}
 	},
 	{
-        "DisplayName":"Dotnet Version",
-        "Category":"SteamCMD and Updates",
-        "Description":"Sets the [ASP.NET Core 7.0 version](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) for the ATLAS Manager. NOTE: Update the server after switching versions!",
-        "Keywords":"dotnet,version",
-        "FieldName":"DotnetVersion",
-        "InputType":"text",
-        "IsFlagArgument":false,
-        "ParamFieldName":"DotnetVersion",
-        "IncludeInCommandLine":false,
-        "DefaultValue":"7.0.5",
-        "Placeholder":"7.0.5",
-        "EnumValues":{}
+        "DisplayName": "Dotnet Version",
+        "Category": "SteamCMD and Updates",
+        "Description": "Sets the [ASP.NET Core 7.0 version](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) for the ATLAS Manager. NOTE: Update the server after switching versions!",
+        "Keywords": "dotnet,version",
+        "FieldName": "DotnetVersion",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName":" DotnetVersion",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "7.0.5",
+        "Placeholder": "7.0.5",
+        "EnumValues": {
+			
+		}
     }
 ]
