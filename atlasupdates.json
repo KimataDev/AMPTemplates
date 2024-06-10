@@ -7,11 +7,17 @@
         "UpdateSourceArgs": "834910"
     },
 	{
+        "UpdateStageName": "Create ATLAS-Manager Directory",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CreateDirectory",
+        "UpdateSourceArgs": "{{$FullBaseDir}}ATLAS-Manager"
+    },
+	{
         "UpdateStageName": "ATLAS-Manager Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://github.com/KimataDev/AMPTemplates/raw/dev/extras/atlas/ATLAS-Manager.zip",
-        "UpdateSourceTarget": "{{$FullBaseDir}}",
+        "UpdateSourceTarget": "{{$FullBaseDir}}ATLAS-Manager",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
@@ -38,7 +44,7 @@
         "UpdateStageName": "ASP.NET Core Runtime Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://dotnetcli.azureedge.net/dotnet/aspnetcore/Runtime/8.0.6/aspnetcore-runtime-8.0.6-win-x64.zip",
+        "UpdateSourceData": "https://dotnetcli.azureedge.net/dotnet/aspnetcore/Runtime/{{DotnetVersion}}/aspnetcore-runtime-{{DotnetVersion}}-win-x64.zip",
         "UpdateSourceTarget": "{{$FullBaseDir}}dotnet",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
