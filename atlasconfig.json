@@ -199,7 +199,7 @@
 		"FieldName": "RedisPassword",
 		"InputType": "password",
 		"IsFlagArgument": false,
-		"ParamFieldName": "RedisPassword",
+		"ParamFieldName": "$.RedisSettings.Password",
 		"IncludeInCommandLine": false,
 		"DefaultValue": "{{randomdigits(8)}}",
 		"EnumValues": {
