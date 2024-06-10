@@ -1,6 +1,6 @@
 [
 	{
-		"ConfigFile": "ShooterGame/ATLAS-Manager/Settings.json",
+		"ConfigFile": "Settings.json",
 		"AutoMap": true,
 		"ConfigType": "json"
 	}

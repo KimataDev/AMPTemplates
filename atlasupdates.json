@@ -11,7 +11,7 @@
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://github.com/KimataDev/AMPTemplates/raw/dev/extras/atlas/ATLAS-Manager.zip",
-        "UpdateSourceTarget": "{{$FullBaseDir}}ATLAS-Manager",
+        "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
