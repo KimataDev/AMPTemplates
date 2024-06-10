@@ -1,20 +1,7 @@
 [
 	{
-        "ConfigFile": "AtlasTools/RedisDatabase/redis.conf",
-        "AutoMap": true,
-		"ConfigType": "template",
-		"ConfigFileTemplate": "atlas/AMP_redis.conf"
-    },
-	{
-		"ConfigFile": "ShooterGame/ServerGrid.json",
+		"ConfigFile": "ShooterGame/ATLAS-Manager/Settings.json",
 		"AutoMap": true,
-		"ConfigType": "template",
-		"ConfigFileTemplate": "atlas/AMP_ServerGrid.json"
-	},
-	{
-		"ConfigFile": "ShooterGame/ServerGrid.ServerOnly.json",
-		"AutoMap": true,
-		"ConfigType": "template",
-		"ConfigFileTemplate": "atlas/AMP_ServerGrid.ServerOnly.json"
+		"ConfigType": "json"
 	}
 ]

@@ -4,21 +4,21 @@ App.AdminPortRef=0
 App.ApplicationIPBinding=0.0.0.0
 App.ApplicationReadyMode=Immediate
 App.BaseDirectory=./atlas/1006030/
-App.CommandLineArgs={{$PlatformArgs}} {{Map}}?ServerX={{WorldGridX}}?ServerY={{WorldGridY}}?MaxPlayers={{$MaxUsers}}?ReservedPlayerSlots={{ReservedPlayerSlots}}?QueryPort={{$QueryPort}}?Port={{$GamePort}}?SeamlessIP={{$ApplicationIPBinding}} -NoBattlEye -log -server {{$FormattedArgs}}
+App.CommandLineArgs={{$PlatformArgs}} {{$FormattedArgs}}
 App.CommandLineParameterDelimiter=
 App.CommandLineParameterFormat={0}={1}
 App.Compatibility=None
 App.DisplayName=ATLAS
 App.EnvironmentVariables={"LD_LIBRARY_PATH": "./linux64:%LD_LIBRARY_PATH%", "SteamAppId": "834910", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "-all"}
 App.ExecutableLinux=/usr/bin/wine
-App.ExecutableWin=1006030\StartServer.bat
+App.ExecutableWin=1006030\ATLAS-Manager\ATLAS-Manager.exe
 App.ExitFile=app_exit.lck
 App.ExitMethod=String
 App.ExitString=stop
 App.ExitTimeout=30
 App.HasReadableConsole=True
 App.HasWriteableConsole=True
-App.LinuxCommandLineArgs="./StartServer.bat"
+App.LinuxCommandLineArgs="./ATLAS-Manager/ATLAS-Manager.exe"
 App.LiveSettingChangeCommandFormat=set {0} "{1}"
 App.MaxUsers=32
 App.MonitorChildProcessName=^.*{{ServerExecutable}}\.exe.*Port={{$GamePort}}.*$

@@ -7,6 +7,17 @@
         "UpdateSourceArgs": "834910"
     },
 	{
+        "UpdateStageName": "ATLAS-Manager Download",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://github.com/KimataDev/AMPTemplates/raw/dev/extras/atlas/ATLAS-Manager.zip",
+        "UpdateSourceTarget": "{{$FullBaseDir}}ATLAS-Manager",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+		"OneShot": false
+    },
+	{
         "UpdateStageName": "ServerGrid Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
@@ -16,33 +27,6 @@
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
 		"OneShot": true
-    },
-	{
-        "UpdateStageName": "StartServer.bat Download",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://github.com/KimataDev/AMPTemplates/raw/dev/atlasstartserver.bat",
-        "UpdateSourceArgs": "StartServer.bat",
-        "UpdateSourceTarget": "{{$FullBaseDir}}",
-        "OverwriteExistingFiles": true
-    },
-	{
-        "UpdateStageName": "Redis Template Download",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://github.com/KimataDev/AMPTemplates/raw/dev/atlasredistemplate.conf",
-        "UpdateSourceArgs": "AMP_redis.conf",
-        "UpdateSourceTarget": "{{$FullRootDir}}",
-        "OverwriteExistingFiles": true
-    },
-	{
-        "UpdateStageName": "ServerGrid Template Download",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://github.com/KimataDev/AMPTemplates/raw/dev/atlasservergridtemplate.json",
-        "UpdateSourceArgs": "AMP_ServerGrid.json",
-        "UpdateSourceTarget": "{{$FullRootDir}}",
-        "OverwriteExistingFiles": true
     },
 	{
         "UpdateStageName": "ServerGrid (ServerOnly) Template Download",

@@ -22,7 +22,7 @@
 		"FieldName": "$GamePort",
 		"InputType": "number",
 		"IsFlagArgument": false,
-		"ParamFieldName": "GamePort",
+		"ParamFieldName": "$.Server.[0].GamePort",
 		"IncludeInCommandLine": false,
 		"EnumValues": {
 			
@@ -37,7 +37,7 @@
 		"FieldName": "$RedisPort",
 		"InputType": "number",
 		"IsFlagArgument": false,
-		"ParamFieldName": "RedisPort",
+		"ParamFieldName": "$.RedisSettings.Port",
 		"IncludeInCommandLine": false,
 		"EnumValues": {
 			
@@ -52,7 +52,7 @@
 		"FieldName": "$QueryPort",
 		"InputType": "number",
 		"IsFlagArgument": false,
-		"ParamFieldName": "QueryPort",
+		"ParamFieldName": "$.Server.[0].QueryPort",
 		"IncludeInCommandLine": false,
 		"EnumValues": {
 			
@@ -67,7 +67,7 @@
 		"FieldName": "$SeamlessPort",
 		"InputType": "number",
 		"IsFlagArgument": false,
-		"ParamFieldName": "SeamlessPort",
+		"ParamFieldName": "$.Server.[0].SeamlessPort",
 		"IncludeInCommandLine": false,
 		"EnumValues": {
 			
@@ -81,35 +81,22 @@
 		"Keywords": "server,name",
 		"FieldName": "ServerName",
 		"InputType": "text",
-		"ParamFieldName": "ServerName",
+		"ParamFieldName": "$.Server.[0].ServerName",
 		"DefaultValue": "AMP Powered ATLAS Server",
 		"EnumValues": {
 			
 		}
 	},
 	{
-		"DisplayName": "World Friendly Name",
+		"DisplayName": "World Admin Password",
 		"Category": "ATLAS Server Settings",
-		"Description": "Set the world friendly name of the server",
-		"Keywords": "friendly",
-		"FieldName": "WorldFriendlyName",
-		"InputType": "text",
-		"ParamFieldName": "WorldFriendlyName",
-		"DefaultValue": "AMP Powered ATLAS Server",
-		"EnumValues": {
-			
-		}
-	},
-	{
-		"DisplayName": "World Password",
-		"Category": "ATLAS Server Settings",
-		"Description": "Set the password for players to join the server",
-		"Keywords": "server,password,serverpassword",
-		"FieldName": "WorldPassword",
+		"Description": "Set the admin password for the server",
+		"Keywords": "admin,password,adminpassword",
+		"FieldName": "AdminPassword",
 		"InputType": "password",
-		"ParamFieldName": "WorldPassword",
+		"ParamFieldName": "$.Server.[0].ServerAdminPassword",
 		"IncludeInCommandLine": false,
-		"DefaultValue": "",
+		"DefaultValue": "{{randomdigits(8)}}",
 		"EnumValues": {
 			
 		}
@@ -121,7 +108,7 @@
 		"Keywords": "map",
 		"FieldName": "Map",
 		"InputType": "enum",
-		"ParamFieldName": "Map",
+		"ParamFieldName": "$.Server.[0].Map",
 		"DefaultValue": "Ocean",
 		"EnumValues": {
 			"Ocean": "Ocean",
@@ -150,7 +137,7 @@
 		"FieldName": "$MaxUsers",
 		"InputType": "number",
 		"MinValue": "1",
-		"ParamFieldName": "MaxPlayers",
+		"ParamFieldName": "$.Server.[0].MaxPlayers",
 		"DefaultValue": "32",
 		"Placeholder": "32",
 		"Suffix": "players",
@@ -166,25 +153,10 @@
 		"FieldName": "ReservedPlayerSlots",
 		"InputType": "number",
 		"MinValue": "0",
-		"ParamFieldName": "ReservedPlayerSlots",
+		"ParamFieldName": "$.Server.[0].ReservedPlayerSlots",
 		"DefaultValue": "0",
 		"Placeholder": "0",
 		"Suffix": "players",
-		"EnumValues": {
-			
-		}
-	},
-	{
-		"DisplayName": "World Grid Size",
-		"Category": "ATLAS Server Settings",
-		"Description": "Set the grid size for the world",
-		"Keywords": "grid,size",
-		"FieldName": "WorldGridSize",
-		"InputType": "number",
-		"MinValue": "1",
-		"ParamFieldName": "WorldGridSize",
-		"DefaultValue": "1400000.0",
-		"Placeholder": "1400000.0",
 		"EnumValues": {
 			
 		}
@@ -197,7 +169,7 @@
 		"FieldName": "WorldGridX",
 		"InputType": "number",
 		"MinValue": "0",
-		"ParamFieldName": "WorldGridX",
+		"ParamFieldName": "$.Server.[0].ServerX",
 		"DefaultValue": "0",
 		"Placeholder": "0",
 		"EnumValues": {
@@ -212,24 +184,9 @@
 		"FieldName": "WorldGridY",
 		"InputType": "number",
 		"MinValue": "0",
-		"ParamFieldName": "WorldGridY",
+		"ParamFieldName": "$.Server.[0].ServerY",
 		"DefaultValue": "0",
 		"Placeholder": "0",
-		"EnumValues": {
-			
-		}
-	},
-	{
-		"DisplayName": "World ATLAS ID",
-		"Category": "ATLAS Server Settings",
-		"Description": "Set the ATLAS ID for the world",
-		"Keywords": "atlas,id",
-		"FieldName": "WorldAtlasId",
-		"InputType": "number",
-		"MinValue": "1",
-		"ParamFieldName": "WorldAtlasId",
-		"DefaultValue": "2129977744",
-		"Placeholder": "2129977744",
 		"EnumValues": {
 			
 		}
