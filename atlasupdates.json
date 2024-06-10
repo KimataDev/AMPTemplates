@@ -29,16 +29,20 @@
 		"OneShot": true
     },
 	{
-        "UpdateStageName":"ASP.NET Core Runtime Download",
-        "UpdateSourcePlatform":"Windows",
-        "UpdateSource":"FetchURL",
-        "UpdateSourceData":"https://dotnetcli.azureedge.net/dotnet/aspnetcore/Runtime/8.0.6/aspnetcore-runtime-8.0.6-win-x64.zip",
-        "UpdateSourceTarget":"{{$FullBaseDir}}dotnet",
-        "UnzipUpdateSource":true,
-        "OverwriteExistingFiles":true,
-        "DeleteAfterExtract":true,
-        "UpdateSourceConditionSetting":"ServerVersion",
-        "UpdateSourceConditionValue":"modded"
+        "UpdateStageName": "Create Dotnet Directory",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CreateDirectory",
+        "UpdateSourceArgs": "{{$FullBaseDir}}dotnet"
+    },
+	{
+        "UpdateStageName": "ASP.NET Core Runtime Download",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://dotnetcli.azureedge.net/dotnet/aspnetcore/Runtime/8.0.6/aspnetcore-runtime-8.0.6-win-x64.zip",
+        "UpdateSourceTarget": "{{$FullBaseDir}}dotnet",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": true
     },
 	{
         "UpdateStageName": "Winescript Download",
