@@ -7,13 +7,13 @@
         "UpdateSourceArgs": "834910"
     },
 	{
-        "UpdateStageName": "Create ATLAS-Manager Directory",
+        "UpdateStageName": "Create ATLAS Manager Directory",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "CreateDirectory",
         "UpdateSourceArgs": "{{$FullBaseDir}}ATLAS-Manager"
     },
 	{
-        "UpdateStageName": "ATLAS-Manager Download",
+        "UpdateStageName": "ATLAS Manager Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://github.com/KimataDev/AMPTemplates/raw/dev/extras/atlas/ATLAS-Manager.zip",

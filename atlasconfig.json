@@ -77,7 +77,7 @@
 	{
 		"DisplayName": "Server Name",
 		"Category": "ATLAS Server Settings",
-		"Description": "Set the name of the server as it appears publicly",
+		"Description": "Sets the name of the server as it appears publicly",
 		"Keywords": "server,name",
 		"FieldName": "ServerName",
 		"InputType": "text",
@@ -90,7 +90,7 @@
 	{
 		"DisplayName": "World Admin Password",
 		"Category": "ATLAS Server Settings",
-		"Description": "Set the admin password for the server",
+		"Description": "Sets the admin password for the server",
 		"Keywords": "admin,password,adminpassword",
 		"FieldName": "AdminPassword",
 		"InputType": "password",
@@ -104,7 +104,7 @@
 	{
 		"DisplayName": "Map",
 		"Category": "ATLAS Server Settings",
-		"Description": "Set the map for the server. If Custom is selected, Custom Map Name must also be set",
+		"Description": "Sets the map for the server. If Custom is selected, Custom Map Name must also be set",
 		"Keywords": "map",
 		"FieldName": "Map",
 		"InputType": "enum",
@@ -118,7 +118,7 @@
 	{
 		"DisplayName": "Custom Map Name",
 		"Category": "ATLAS Server Settings",
-		"Description": "Set a custom map for the server. \"Custom\" type must be selected under Map",
+		"Description": "Sets a custom map for the server. \"Custom\" type must be selected under Map",
 		"Keywords": "custom,map",
 		"FieldName": "CustomMap",
 		"InputType": "text",
@@ -132,7 +132,7 @@
 	{
 		"DisplayName": "Player Limit",
 		"Category": "ATLAS Server Settings",
-		"Description": "Set the maximum number of players allowed on the server",
+		"Description": "Sets the maximum number of players allowed on the server",
 		"Keywords": "max,players,limit,maxplayers",
 		"FieldName": "$MaxUsers",
 		"InputType": "number",
@@ -148,7 +148,7 @@
 	{
 		"DisplayName": "Reserved Player Slots",
 		"Category": "ATLAS Server Settings",
-		"Description": "Set the maximum number of reserved players allowed on the server, even with a limit in place",
+		"Description": "Sets the maximum number of reserved players allowed on the server, even with a limit in place",
 		"Keywords": "reserved,slots",
 		"FieldName": "ReservedPlayerSlots",
 		"InputType": "number",
@@ -164,7 +164,7 @@
 	{
 		"DisplayName": "World Grid X",
 		"Category": "ATLAS Server Settings",
-		"Description": "Set the grid x for the world",
+		"Description": "Sets the grid x for the world",
 		"Keywords": "grid,x",
 		"FieldName": "WorldGridX",
 		"InputType": "number",
@@ -179,7 +179,7 @@
 	{
 		"DisplayName": "World Grid Y",
 		"Category": "ATLAS Server Settings",
-		"Description": "Set the grid y for the world",
+		"Description": "Sets the grid y for the world",
 		"Keywords": "grid,y",
 		"FieldName": "WorldGridY",
 		"InputType": "number",
@@ -194,7 +194,7 @@
 	{
 		"DisplayName": "Redis Password",
 		"Category": "ATLAS Server Settings",
-		"Description": "Set the password for the Redis Server",
+		"Description": "Sets the password for the Redis Server",
 		"Keywords": "",
 		"FieldName": "RedisPassword",
 		"InputType": "password",
@@ -209,7 +209,7 @@
 	{
         "DisplayName":"Dotnet Version",
         "Category":"SteamCMD and Updates",
-        "Description":"Sets the [ASP.NET Core 7.0 version](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) to install for the Modded server. NOTE: Update the server after switching versions!",
+        "Description":"Sets the [ASP.NET Core 7.0 version](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) for the ATLAS Manager. NOTE: Update the server after switching versions!",
         "Keywords":"dotnet,version",
         "FieldName":"DotnetVersion",
         "InputType":"text",
