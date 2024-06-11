@@ -15,7 +15,7 @@ rm display.log
 wget -q -N https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
 chmod +x winetricks
 
-export WINEPREFIX="$SCRIPTDIR/atlas/.wine"
+export WINEPREFIX="$SCRIPTDIR/interstellar-rift/.wine"
 export WINEDLLOVERRIDES="mscoree,mshtml="
 export WINEARCH=win64
 export WINEDEBUG=fixme-all
