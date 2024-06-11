@@ -9,7 +9,7 @@ App.CommandLineParameterDelimiter=
 App.CommandLineParameterFormat={0}={1}
 App.Compatibility=None
 App.DisplayName=ATLAS
-App.EnvironmentVariables={"LD_LIBRARY_PATH": "./linux64:%LD_LIBRARY_PATH%", "SteamAppId": "834910", "DOTNET_ROOT": "{{$FullBaseDir}}dotnet", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "-all"}
+App.EnvironmentVariables={"LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:%LD_LIBRARY_PATH%", "SteamAppId": "834910", "DOTNET_ROOT": "{{$FullBaseDir}}dotnet", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "-all"}
 App.ExecutableLinux=/usr/bin/wine
 App.ExecutableWin=1006030\ATLAS-Manager\ATLAS-Manager.exe
 App.ExitFile=app_exit.lck
