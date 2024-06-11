@@ -1,6 +1,6 @@
 [
 	{
-		"ConfigFile": "%AppData%/InterstellarRift",
+		"ConfigFile": "AppData/InterstellarRift/server.json",
 		"AutoMap": true,
 		"ConfigType": "json"
 	}
