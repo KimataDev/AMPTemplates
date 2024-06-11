@@ -34,7 +34,7 @@
 		"Keywords": "server,name",
 		"FieldName": "ServerName",
 		"InputType": "text",
-		"ParamFieldName": "$.ServerName",
+		"ParamFieldName": "$.GalaxyName",
 		"DefaultValue": "andromeda",
 		"EnumValues": {
 			
@@ -47,7 +47,7 @@
 		"Keywords": "server,name",
 		"FieldName": "ServerName",
 		"InputType": "text",
-		"ParamFieldName": "$.Welcome to IsR Server!",
+		"ParamFieldName": "$.MessageOfTheDay",
 		"DefaultValue": "Welcome to IsR Server!",
 		"EnumValues": {
 			
