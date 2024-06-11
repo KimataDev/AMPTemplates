@@ -192,6 +192,21 @@
 		}
 	},
 	{
+		"DisplayName": "World Password",
+		"Category": "ATLAS Server Settings",
+		"Description": "Sets the password for the ATLAS world",
+		"Keywords": "",
+		"FieldName": "WorldAtlasPassword",
+		"InputType": "password",
+		"IsFlagArgument": false,
+		"ParamFieldName": "$.GeneralSettings.WorldAtlasPassword",
+		"IncludeInCommandLine": false,
+		"DefaultValue": "",
+		"EnumValues": {
+			
+		}
+	},
+	{
 		"DisplayName": "Redis Password",
 		"Category": "ATLAS Server Settings",
 		"Description": "Sets the password for the Redis Server",
