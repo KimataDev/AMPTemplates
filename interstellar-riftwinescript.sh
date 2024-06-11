@@ -17,7 +17,7 @@ chmod +x winetricks
 
 export WINEPREFIX="$SCRIPTDIR/interstellar-rift/.wine"
 export WINEDLLOVERRIDES="mscoree,mshtml="
-export WINEARCH=win64
+export WINEARCH=win32
 export WINEDEBUG=fixme-all
 export DISPLAY=:$DPY_NUM
 ./winetricks corefonts > winescript_log.txt 2>&1
