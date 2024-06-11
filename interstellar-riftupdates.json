@@ -5,11 +5,7 @@
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "363360",
         "UpdateSourceArgs": "363360",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "ForceDownloadPlatform": "Windows",
-        "DeleteAfterExtract": true,
-        "OneShot": false
+        "ForceDownloadPlatform": "Windows"
     },
     {
         "UpdateStageName": "Initialise Wine",
