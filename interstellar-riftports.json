@@ -1,7 +1,7 @@
 [
 	{
 		"Protocol": "UDP",
-		"Port": 8905,
+		"Port": 9877,
 		"Name": "Game Port",
 		"Description": "Port for game traffic",
 		"Ref": "GamePort"
