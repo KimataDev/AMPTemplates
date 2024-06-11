@@ -16,15 +16,13 @@ wget -q -N https://raw.githubusercontent.com/Winetricks/winetricks/master/src/wi
 chmod +x winetricks
 
 export WINEPREFIX="$SCRIPTDIR/interstellar-rift/.wine"
-export WINEDLLOVERRIDES="mscoree,mshtml="
 export WINEARCH=win32
-export WINEDEBUG=fixme-all
+export WINEDEBUG=-all
+export WINEDLLOVERRIDES="mscoree=d;mshtml="
 export DISPLAY=:$DPY_NUM
-./winetricks corefonts > winescript_log.txt 2>&1
-./winetricks sound=disabled >> winescript_log.txt 2>&1
-./winetricks -q vcrun2013 >> winescript_log.txt 2>&1
-./winetricks -q vcrun2019 >> winescript_log.txt 2>&1
-./winetricks -q dotnet48 >> winescript_log.txt 2>&1
+./winetricks -q corefonts >> winescript_log.txt 2>&1
+./winetricks -q vcrun2012 >> winescript_log.txt 2>&1
+./winetricks -q dotnet472 >> winescript_log.txt 2>&1
 rm -rf ~/.cache/winetricks ~/.cache/fontconfig
 
 exec 6>&-
