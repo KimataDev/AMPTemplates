@@ -16,7 +16,7 @@ wget -q -N https://raw.githubusercontent.com/Winetricks/winetricks/master/src/wi
 chmod +x winetricks
 
 export WINEPREFIX="$SCRIPTDIR/interstellar-rift/.wine"
-export WINEARCH=win32
+export WINEARCH=win64
 export WINEDEBUG=-all
 export WINEDLLOVERRIDES="mscoree=d;mshtml="
 export DISPLAY=:$DPY_NUM
