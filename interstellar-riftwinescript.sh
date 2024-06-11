@@ -4,7 +4,7 @@ SCRIPT_NAME=$(echo \"$0\" | xargs readlink -f)
 SCRIPTDIR=$(dirname "$SCRIPT_NAME")
 
 exec 6>display.log
-/usr/bin/Xvfb :5 -screen 0 1024x768x16 &
+/usr/bin/Xvfb -screen 0 1024x768x16 &
 XVFB_PID=$!
 while [[ ! -s display.log ]]; do
   sleep 1
@@ -20,7 +20,8 @@ export WINEARCH=win32
 export WINEDEBUG=-all
 export WINEDLLOVERRIDES="mscoree=d;mshtml="
 export DISPLAY=:$DPY_NUM
-./winetricks -q corefonts >> winescript_log.txt 2>&1
+./winetricks corefonts > winescript_log.txt 2>&1
+./winetricks sound=disabled >> winescript_log.txt 2>&1
 ./winetricks -q vcrun2012 >> winescript_log.txt 2>&1
 ./winetricks -q dotnet472 >> winescript_log.txt 2>&1
 rm -rf ~/.cache/winetricks ~/.cache/fontconfig
