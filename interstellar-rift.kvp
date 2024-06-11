@@ -65,6 +65,7 @@ Console.UserChatRegex=^$
 Console.UserJoinRegex=^$
 Console.UserLeaveRegex=^$
 Errors=
+Meta.AppConfigId=edd45577-2c78-43c3-a490-3eca094ea2d0
 Meta.Arch=x86_64
 Meta.Author=Kimata
 Meta.ConfigManifest=interstellar-riftconfig.json
