@@ -6,7 +6,7 @@ App.ApplicationReadyMode=RegexMatch
 App.BaseDirectory=./interstellar-rift/363360/
 App.CommandLineArgs={{$PlatformArgs}} -server {{$FormattedArgs}}
 App.CommandLineParameterDelimiter=
-App.CommandLineParameterFormat=-{0} "{1}"
+App.CommandLineParameterFormat={0}={1}
 App.Compatibility=None
 App.DisplayName=Interstellar Rift
 App.EnvironmentVariables={"LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:%LD_LIBRARY_PATH%", "SteamAppId": "363360", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "-all"}
@@ -35,7 +35,7 @@ App.RemoteAdminPassword=
 App.RootDir=./interstellar-rift/
 App.SteamForceLoginPrompt=False
 App.SteamUpdateAnonymousLogin=True
-App.SteamWorkshopDownloadLocation={{$FullBaseDir}}undefined
+App.SteamWorkshopDownloadLocation=
 App.SupportsLiveSettingsChanges=False
 App.SupportsUniversalSleep=False
 App.TelnetLoginFormat={0}

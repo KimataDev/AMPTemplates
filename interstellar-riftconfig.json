@@ -1,1 +1,87 @@
-[]
+[
+	{
+		"DisplayName": "Game Port",
+		"Category": "ATLAS Server Settings",
+		"Description": "",
+		"Keywords": "",
+		"FieldName": "$GamePort",
+		"InputType": "number",
+		"IsFlagArgument": false,
+		"ParamFieldName": "$.Port",
+		"IncludeInCommandLine": false,
+		"EnumValues": {
+			
+		},
+		"Hidden": true
+	},
+	{
+		"DisplayName": "Server Name",
+		"Category": "Interstellar Rift Server Settings",
+		"Description": "Sets the name of the server as it appears publicly",
+		"Keywords": "server,name",
+		"FieldName": "ServerName",
+		"InputType": "text",
+		"ParamFieldName": "$.ServerName",
+		"DefaultValue": "AMP Powered Interstellar Rift Server",
+		"EnumValues": {
+			
+		}
+	},
+	{
+		"DisplayName": "Galaxy Name",
+		"Category": "Interstellar Rift Server Settings",
+		"Description": "Sets the galaxy name for the server",
+		"Keywords": "server,name",
+		"FieldName": "ServerName",
+		"InputType": "text",
+		"ParamFieldName": "$.ServerName",
+		"DefaultValue": "andromeda",
+		"EnumValues": {
+			
+		}
+	},
+	{
+		"DisplayName": "Message Of The Day",
+		"Category": "Interstellar Rift Server Settings",
+		"Description": "Sets the message of the day for the server",
+		"Keywords": "server,name",
+		"FieldName": "ServerName",
+		"InputType": "text",
+		"ParamFieldName": "$.Welcome to IsR Server!",
+		"DefaultValue": "Welcome to IsR Server!",
+		"EnumValues": {
+			
+		}
+	},
+	{
+		"DisplayName": "Player Limit",
+		"Category": "Interstellar Rift Server Settings",
+		"Description": "Sets the maximum number of players allowed on the server",
+		"Keywords": "max,players,limit,maxplayers",
+		"FieldName": "$MaxUsers",
+		"InputType": "number",
+		"MinValue": "1",
+		"ParamFieldName": "$.MaxPlayers",
+		"DefaultValue": "64",
+		"Placeholder": "64",
+		"Suffix": "players",
+		"EnumValues": {
+			
+		}
+	},
+	{
+		"DisplayName": "Password",
+		"Category": "Interstellar Rift Server Settings",
+		"Description": "Sets the password for the server",
+		"Keywords": "",
+		"FieldName": "Password",
+		"InputType": "password",
+		"IsFlagArgument": false,
+		"ParamFieldName": "$.Password",
+		"IncludeInCommandLine": false,
+		"DefaultValue": "",
+		"EnumValues": {
+			
+		}
+	}
+]
