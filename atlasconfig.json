@@ -7,7 +7,7 @@
 		"FieldName": "$ApplicationIPBinding",
 		"InputType": "text",
 		"IsFlagArgument": false,
-		"ParamFieldName": "ServerIP",
+		"ParamFieldName": "$.ServerSettings.[0].SeamlessIP",
 		"IncludeInCommandLine": false,
 		"EnumValues": {
 			
@@ -22,7 +22,7 @@
 		"FieldName": "$GamePort",
 		"InputType": "number",
 		"IsFlagArgument": false,
-		"ParamFieldName": "$.Server.[0].GamePort",
+		"ParamFieldName": "$.ServerSettings.[0].GamePort",
 		"IncludeInCommandLine": false,
 		"EnumValues": {
 			
@@ -52,7 +52,7 @@
 		"FieldName": "$QueryPort",
 		"InputType": "number",
 		"IsFlagArgument": false,
-		"ParamFieldName": "$.Server.[0].QueryPort",
+		"ParamFieldName": "$.ServerSettings.[0].QueryPort",
 		"IncludeInCommandLine": false,
 		"EnumValues": {
 			
@@ -67,7 +67,7 @@
 		"FieldName": "$SeamlessPort",
 		"InputType": "number",
 		"IsFlagArgument": false,
-		"ParamFieldName": "$.Server.[0].SeamlessPort",
+		"ParamFieldName": "$.ServerSettings.[0].SeamlessPort",
 		"IncludeInCommandLine": false,
 		"EnumValues": {
 			
@@ -81,7 +81,7 @@
 		"Keywords": "server,name",
 		"FieldName": "ServerName",
 		"InputType": "text",
-		"ParamFieldName": "$.Server.[0].ServerName",
+		"ParamFieldName": "$.ServerSettings.[0].ServerName",
 		"DefaultValue": "AMP Powered ATLAS Server",
 		"EnumValues": {
 			
@@ -94,7 +94,7 @@
 		"Keywords": "admin,password,adminpassword",
 		"FieldName": "AdminPassword",
 		"InputType": "password",
-		"ParamFieldName": "$.Server.[0].ServerAdminPassword",
+		"ParamFieldName": "$.ServerSettings.[0].ServerAdminPassword",
 		"IncludeInCommandLine": false,
 		"DefaultValue": "{{randomdigits(8)}}",
 		"EnumValues": {
@@ -108,7 +108,7 @@
 		"Keywords": "map",
 		"FieldName": "Map",
 		"InputType": "enum",
-		"ParamFieldName": "$.Server.[0].Map",
+		"ParamFieldName": "$.ServerSettings.[0].Map",
 		"DefaultValue": "Ocean",
 		"EnumValues": {
 			"Ocean": "Ocean",
@@ -137,7 +137,7 @@
 		"FieldName": "$MaxUsers",
 		"InputType": "number",
 		"MinValue": "1",
-		"ParamFieldName": "$.Server.[0].MaxPlayers",
+		"ParamFieldName": "$.ServerSettings.[0].MaxPlayers",
 		"DefaultValue": "32",
 		"Placeholder": "32",
 		"Suffix": "players",
@@ -153,7 +153,7 @@
 		"FieldName": "ReservedPlayerSlots",
 		"InputType": "number",
 		"MinValue": "0",
-		"ParamFieldName": "$.Server.[0].ReservedPlayerSlots",
+		"ParamFieldName": "$.ServerSettings.[0].ReservedPlayerSlots",
 		"DefaultValue": "0",
 		"Placeholder": "0",
 		"Suffix": "players",
@@ -169,7 +169,7 @@
 		"FieldName": "WorldGridX",
 		"InputType": "number",
 		"MinValue": "0",
-		"ParamFieldName": "$.Server.[0].ServerX",
+		"ParamFieldName": "$.ServerSettings.[0].ServerX",
 		"DefaultValue": "0",
 		"Placeholder": "0",
 		"EnumValues": {
@@ -184,7 +184,7 @@
 		"FieldName": "WorldGridY",
 		"InputType": "number",
 		"MinValue": "0",
-		"ParamFieldName": "$.Server.[0].ServerY",
+		"ParamFieldName": "$.ServerSettings.[0].ServerY",
 		"DefaultValue": "0",
 		"Placeholder": "0",
 		"EnumValues": {
