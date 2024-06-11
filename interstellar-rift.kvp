@@ -9,8 +9,8 @@ App.CommandLineParameterDelimiter=
 App.CommandLineParameterFormat={0}={1}
 App.Compatibility=None
 App.DisplayName=Interstellar Rift
-App.EnvironmentVariables={"LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:%LD_LIBRARY_PATH%", "SteamAppId": "363360", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDLLOVERRIDES": "mscoree=d", "WINEDEBUG": "-all"}
-App.ExecutableLinux=/usr/bin/wine
+App.EnvironmentVariables={"LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:%LD_LIBRARY_PATH%", "SteamAppId": "363360", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "+seh,+warn"}
+App.ExecutableLinux=/usr/bin/xvfb-run
 App.ExecutableWin=363360\Build\IR.exe
 App.ExitFile=app_exit.lck
 App.ExitMethod=String
@@ -18,7 +18,7 @@ App.ExitString=quit
 App.ExitTimeout=30
 App.HasReadableConsole=True
 App.HasWritableConsole=True
-App.LinuxCommandLineArgs="./Build/IR.exe"
+App.LinuxCommandLineArgs=-a wineconsole --backend=curses "./Build/IR.exe"
 App.LiveSettingChangeCommandFormat=set {0} "{1}"
 App.MaxUsers=64
 App.MonitorChildProcess=False
