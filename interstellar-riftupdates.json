@@ -14,22 +14,5 @@
         "UpdateSourceData": "/bin/bash",
         "UpdateSourceArgs": "-c 'WINEPREFIX=\"{{$FullRootDir}}.wine\" WINEARCH=win32 WINEDEBUG=-all WINEDLLOVERRIDES=\"mscoree=d\" /usr/bin/wineboot --init --update /nogui'",
         "SkipOnFailure": false
-    },
-    {
-        "UpdateStageName": "Winescript Download",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://raw.githubusercontent.com/KimataDev/AMPTemplates/dev/interstellar-riftwinescript.sh",
-        "UpdateSourceArgs": "winescript.sh",
-        "UpdateSourceTarget": "{{$FullInstanceDir}}",
-        "OverwriteExistingFiles": true
-    },
-    {
-        "UpdateStageName": "Install Windows Components",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "Executable",
-        "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "./winescript.sh",
-        "SkipOnFailure": false
     }
 ]
