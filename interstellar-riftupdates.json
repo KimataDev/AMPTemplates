@@ -21,7 +21,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-		"UpdateSourceArgs": "-c 'chmod +x winetricks && /usr/bin/Xvfb :5 -screen 0 1024x768x16 & env WINEARCH=win32 WINEDEBUG=-all WINEDLLOVERRIDES=\"mscoree=d\" WINEPREFIX=\"{{$FullRootDir}}.wine\" /usr/bin/wineboot --init /nogui && env WINEARCH=win32 WINEDEBUG=-all WINEPREFIX=\"{{$FullRootDir}}.wine\" ./winetricks -q corefonts && env DISPLAY=:5.0 WINEARCH=win32 WINEDEBUG=-all WINEPREFIX=\"{{$FullRootDir}}.wine\" ./winetricks -q vcrun2012 && env DISPLAY=:5.0 WINEARCH=win32 WINEDEBUG=-all WINEPREFIX=\"{{$FullRootDir}}.wine\" ./winetricks -q dotnet472 && pkill -f Xvfb'",
+		"UpdateSourceArgs": "-c 'chmod +x winetricks && /usr/bin/Xvfb :5 -screen 0 1024x768x16 & XVFB_PID=$! && env WINEARCH=win32 WINEDEBUG=-all WINEDLLOVERRIDES=\"mscoree=d\" WINEPREFIX=\"{{$FullRootDir}}.wine\" /usr/bin/wineboot --init /nogui && env WINEARCH=win32 WINEDEBUG=-all WINEPREFIX=\"{{$FullRootDir}}.wine\" ./winetricks -q corefonts && env DISPLAY=:5.0 WINEARCH=win32 WINEDEBUG=-all WINEPREFIX=\"{{$FullRootDir}}.wine\" ./winetricks -q vcrun2012 && env DISPLAY=:5.0 WINEARCH=win32 WINEDEBUG=-all WINEPREFIX=\"{{$FullRootDir}}.wine\" ./winetricks -q dotnet472 && kill $XVFB_PID && exit 0'",
         "SkipOnFailure": false
     }
 ]
