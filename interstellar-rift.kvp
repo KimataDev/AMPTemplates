@@ -77,10 +77,9 @@ Meta.DisplayImageSource=steam:363360
 Meta.DisplayName=Interstellar Rift
 Meta.DockerRequired=False
 Meta.EndpointURIFormat=steam://connect/{ip}:{GenericModule.App.Ports.$GamePort}
-Meta.ExtraContainerPackages=["winehq-stable=8.0.2~bookworm-1", "wine-stable=8.0.2~bookworm-1", "wine-stable-amd64=8.0.2~bookworm-1", "wine-stable-i386=8.0.2~bookworm-1"]
 Meta.MetaConfigManifest=interstellar-riftmetaconfig.json
 Meta.MinAMPVersion=2.4.6.6
 Meta.OS=3
 Meta.Prerequsites=[]
-Meta.SpecificDockerImage=cubecoders/ampbase:wine8
+Meta.SpecificDockerImage=cubecoders/ampbase:wine
 Meta.URL=https://store.steampowered.com/app/363360/Interstellar_Rift/
