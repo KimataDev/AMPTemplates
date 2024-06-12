@@ -22,6 +22,7 @@ export WINEDEBUG=fixme-all
 export DISPLAY=:$DPY_NUM
 ./winetricks corefonts > winescript_log.txt 2>&1
 ./winetricks sound=disabled >> winescript_log.txt 2>&1
+./winetricks mono >> winescript_log.txt 2>&1
 ./winetricks -q vcrun2012 >> winescript_log.txt 2>&1
 ./winetricks -q dotnet472 >> winescript_log.txt 2>&1
 rm -rf ~/.cache/winetricks ~/.cache/fontconfig
