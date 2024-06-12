@@ -8,20 +8,28 @@
         "ForceDownloadPlatform": "Windows"
     },
 	{
-        "UpdateStageName": "Winetricks Download",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks",
-        "UpdateSourceArgs": "winetricks",
-        "UpdateSourceTarget": "{{$FullInstanceDir}}",
-        "OverwriteExistingFiles": true
-    },
-	{
         "UpdateStageName": "Initialise Wine",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-		"UpdateSourceArgs": "-c 'chmod +x winetricks && /usr/bin/Xvfb :5 -screen 0 1024x768x16 & env WINEARCH=win32 WINEDEBUG=-all WINEDLLOVERRIDES=\"mscoree=d\" WINEPREFIX=\"{{$FullRootDir}}.wine\" /usr/bin/wineboot --init /nogui && env WINEARCH=win32 WINEDEBUG=-all WINEPREFIX=\"{{$FullRootDir}}.wine\" ./winetricks -q corefonts && env DISPLAY=:5.0 WINEARCH=win32 WINEDEBUG=-all WINEPREFIX=\"{{$FullRootDir}}.wine\" ./winetricks -q vcrun2012 && env DISPLAY=:5.0 WINEARCH=win32 WINEDEBUG=-all WINEPREFIX=\"{{$FullRootDir}}.wine\" ./winetricks -q dotnet472 && exit 0'",
+        "UpdateSourceArgs": "-c 'WINEPREFIX=\"{{$FullRootDir}}.wine\" WINEARCH=win32 WINEDEBUG=-all WINEDLLOVERRIDES=\"mscoree=d\" /usr/bin/wineboot --init --update /nogui'",
+        "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "Winescript Download",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://raw.githubusercontent.com/KimataDev/AMPTemplates/dev/interstellar-riftwinescript.sh",
+        "UpdateSourceArgs": "winescript.sh",
+        "UpdateSourceTarget": "{{$FullInstanceDir}}",
+        "OverwriteExistingFiles": true
+    },
+    {
+        "UpdateStageName": "Install Windows Components",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "/bin/bash",
+        "UpdateSourceArgs": "./winescript.sh",
         "SkipOnFailure": false
     }
 ]
