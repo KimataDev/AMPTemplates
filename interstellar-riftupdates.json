@@ -12,7 +12,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c 'WINEPREFIX=\"{{$FullRootDir}}.wine\" WINEARCH=win32 WINEDEBUG=-all WINEDLLOVERRIDES=\"mscoree=d\" /usr/bin/wineboot --init --update /nogui'",
+        "UpdateSourceArgs": "-c 'WINEPREFIX=\"{{$FullRootDir}}.wine\" WINEARCH=win64 WINEDEBUG=-all WINEDLLOVERRIDES=\"mscoree=d\" /usr/bin/wineboot --init --update /nogui'",
         "SkipOnFailure": false
     }
 ]

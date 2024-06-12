@@ -12,7 +12,7 @@ done
 read -r DPY_NUM < display.log
 rm display.log
 
-export WINEARCH=win32
+export WINEARCH=win64
 export WINEDEBUG=-all
 export WINEPREFIX="$SCRIPTDIR/interstellar-rift/.wine"
 export WINEDLLOVERRIDES="mscoree=d"
