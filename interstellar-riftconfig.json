@@ -12,7 +12,7 @@
 		"EnumValues": {
 			
 		},
-		"Hidden": true
+		"Hidden": false
 	},
 	{
 		"DisplayName": "Server Name",
@@ -78,14 +78,14 @@
         	"InputType": "checkbox",
         	"IsFlagArgument": false,
         	"ParamFieldName": "$.AnnounceToMasterServer",
-        	"DefaultValue": "False",
-        	"Placeholder": "False",
+        	"DefaultValue": "false",
+        	"Placeholder": "false",
         	"Suffix": "listing",
         	"Hidden": false,
         	"SkipIfEmpty": false,
         	"EnumValues": {
-            		"true": "True",
-            		"false": "False"
+            		"true": "true",
+            		"false": "false"
 		}
 	},
 	{
