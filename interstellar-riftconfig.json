@@ -84,8 +84,9 @@
         	"Hidden": false,
         	"SkipIfEmpty": false,
         	"EnumValues": {
-            	"true": "True",
-            	"false": "False"
+            		"true": "True",
+            		"false": "False"
+		}
 	},
 	{
         "DisplayName": "Proton GE Release",
