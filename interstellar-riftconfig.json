@@ -84,6 +84,21 @@
 		}
 	},	
 	{
+		"DisplayName": "Server Flags",
+		"Category": "Interstellar Rift Server Settings",
+		"Description": "Flags are not well documented, but 0 is standard, 8 is PvE",
+		"Keywords": "Serverflags",
+		"FieldName": "$Flags",
+		"InputType": "number",
+		"MinValue": "0",
+		"ParamFieldName": "$.Flags",
+		"DefaultValue": "0",
+		"Placeholder": "0",
+		"EnumValues": {
+			
+		}
+	},	
+	{
         	"DisplayName": "List Server",
         	"Category": "Interstellar Rift Server Settings",
         	"Description": "Check if server should be listed ingame",
