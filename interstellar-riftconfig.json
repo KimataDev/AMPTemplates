@@ -68,6 +68,24 @@
 		"EnumValues": {
 			
 		}
+	},	
+	{
+        	"DisplayName": "List Server",
+        	"Category": "Server Settings",
+        	"Description": "Check if server should be listed ingame",
+        	"Keywords": "list,server",
+        	"FieldName": "$AnnounceToMasterServer",
+        	"InputType": "checkbox",
+        	"IsFlagArgument": false,
+        	"ParamFieldName": "$.AnnounceToMasterServer",
+        	"DefaultValue": "False",
+        	"Placeholder": "False",
+        	"Suffix": "listing",
+        	"Hidden": false,
+        	"SkipIfEmpty": false,
+        	"EnumValues": {
+            	"true": "True",
+            	"false": "False"
 	},
 	{
         "DisplayName": "Proton GE Release",
