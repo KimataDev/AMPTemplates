@@ -1,7 +1,7 @@
 [
 	{
 		"DisplayName": "Game Port",
-		"Category": "ATLAS Server Settings",
+		"Category": "Interstellar Rift Server Settings",
 		"Description": "",
 		"Keywords": "",
 		"FieldName": "$GamePort",
