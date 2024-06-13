@@ -1,0 +1,7 @@
+[
+	{
+		"ConfigFile": "AppData/server.json",
+		"AutoMap": true,
+		"ConfigType": "json"
+	}
+]
