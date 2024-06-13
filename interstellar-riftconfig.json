@@ -71,10 +71,10 @@
 	},	
 	{
         	"DisplayName": "List Server",
-        	"Category": "Server Settings",
+        	"Category": "Interstellar Rift Server Settings",
         	"Description": "Check if server should be listed ingame",
         	"Keywords": "list,server",
-        	"FieldName": "$AnnounceToMasterServer",
+        	"FieldName": "AnnounceToMasterServer",
         	"InputType": "checkbox",
         	"IsFlagArgument": false,
         	"ParamFieldName": "$.AnnounceToMasterServer",
