@@ -68,6 +68,21 @@
 		}
     },
 	{
+		"DisplayName": "Server Flags",
+		"Category": "Interstellar Rift Server Settings",
+		"Description": "Sets the server flag. Flags are not well documented, but 0 is standard, 8 is PvE",
+		"Keywords": "Serverflags",
+		"FieldName": "$Flags",
+		"InputType": "number",
+		"MinValue": "0",
+		"ParamFieldName": "$.Flags",
+		"DefaultValue": "0",
+		"Placeholder": "0",
+		"EnumValues": {
+			
+		}
+	},
+	{
 		"DisplayName": "Player Limit",
 		"Category": "Interstellar Rift Server Settings",
 		"Description": "Sets the maximum number of players allowed on the server",
