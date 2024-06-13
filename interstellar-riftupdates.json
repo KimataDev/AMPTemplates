@@ -28,7 +28,7 @@
         "SkipOnFailure": false
     },
 	{
-        "UpdateStageName": "Create Config Directory",
+        "UpdateStageName": "Create AppData Directory",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "CreateDirectory",
         "UpdateSourceArgs": "{{$FullBaseDir}}AppData"
