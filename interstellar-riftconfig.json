@@ -66,7 +66,7 @@
 			"true": "true",
 			"false": "false"
 		}
-    },
+	},
 	{
 		"DisplayName": "Server Flags",
 		"Category": "Interstellar Rift Server Settings",
