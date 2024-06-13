@@ -32,8 +32,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-		"UpdateSourceArgs":"-c 'mkdir -p \"{{$FullRootDir}}.proton/compatdata/pfx/drive_c/users/steamuser/AppData/Roaming/InterstellarRift\" >/dev/null 2>&1; ln -s {{$FullRootDir}}.proton/compatdata/pfx/drive_c/users/steamuser/AppData/Roaming/InterstellarRift {{$FullBaseDir}}AppData >/dev/null 2>&1'",
-        "UpdateSourceArgs": "-c 'ln -s {{$FullRootDir}}.proton/compatdata/pfx/drive_c/users/steamuser/AppData/Roaming/InterstellarRift {{$FullRootDir}}363360/AppData'",
+		"UpdateSourceArgs":"-c 'mkdir -p \"{{$FullRootDir}}.proton/compatdata/pfx/drive_c/users/steamuser/AppData/Roaming/InterstellarRift\" >/dev/null 2>&1; ln -sf {{$FullRootDir}}.proton/compatdata/pfx/drive_c/users/steamuser/AppData/Roaming/InterstellarRift {{$FullBaseDir}}AppData >/dev/null 2>&1'",
         "SkipOnFailure": false
     },
 	{
