@@ -28,17 +28,11 @@
         "SkipOnFailure": false
     },
 	{
-        "UpdateStageName": "Create AppData Directory",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "CreateDirectory",
-        "UpdateSourceArgs": "{{$FullBaseDir}}AppData"
-    },
-	{
         "UpdateStageName": "Create AppData Symbolic Link",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-		"UpdateSourceArgs":"-c 'mkdir -p \"{{$FullRootDir}}.proton/compatdata/pfx/drive_c/users/steamuser/AppData/Roaming/InterstellarRift\" >/dev/null 2>&1; ln -sf \"{{$FullRootDir}}.proton/compatdata/pfx/drive_c/users/steamuser/AppData/Roaming/InterstellarRift\" \"{{$FullBaseDir}}AppData\" >/dev/null 2>&1'",
+		"UpdateSourceArgs":"-c 'mkdir -p \"{{$FullRootDir}}.proton/compatdata/pfx/drive_c/users/steamuser/AppData/Roaming/InterstellarRift\" >/dev/null 2>&1; ln -sf \"{{$FullRootDir}}.proton/compatdata/pfx/drive_c/users/steamuser/AppData/Roaming/InterstellarRift\" ./interstellar-rift/363360/AppData >/dev/null 2>&1'",
         "SkipOnFailure": false
     },
 	{
