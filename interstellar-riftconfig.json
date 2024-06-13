@@ -12,7 +12,7 @@
 		"EnumValues": {
 			
 		},
-		"Hidden": false
+		"Hidden": true
 	},
 	{
 		"DisplayName": "Server Name",
