@@ -54,6 +54,20 @@
 		}
 	},
 	{
+		"DisplayName": "Master Server",
+		"Category": "Interstellar Rift Server Settings",
+		"Description": "If enabled, the server should be listed ingame",
+		"Keywords": "list,server",
+		"FieldName": "AnnounceToMasterServer",
+		"InputType": "checkbox",
+		"ParamFieldName": "$.AnnounceToMasterServer",
+		"DefaultValue": "false",
+		"EnumValues": {
+			"true": "true",
+			"false": "false"
+		}
+    },
+	{
 		"DisplayName": "Player Limit",
 		"Category": "Interstellar Rift Server Settings",
 		"Description": "Sets the maximum number of players allowed on the server",
