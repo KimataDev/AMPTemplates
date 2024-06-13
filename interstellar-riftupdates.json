@@ -40,7 +40,7 @@
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "Executable",
         "UpdateSourceData": "cmd.exe",
-        "UpdateSourceArgs": "/C mkdir \"%AppData%\\InterstellarRift\" > NUL 2>&1 & rd /S /Q \"{{$FullBaseDir}}AppData\" > NUL 2>&1 & mklink /J \"{{$FullBaseDir}}AppData\" \"%AppData%\\InterstellarRift\" > NUL 2>&1",
+        "UpdateSourceArgs": "/C mkdir \"%AppData%\\InterstellarRift\" > NUL 2>&1 & mkdir \"{{$FullBaseDir}}AppData\" > NUL 2>&1 & rd /S /Q \"{{$FullBaseDir}}AppData\" > NUL 2>&1 & mklink /J \"{{$FullBaseDir}}AppData\" \"%AppData%\\InterstellarRift\" > NUL 2>&1",
         "SkipOnFailure": false
     },
 	{
