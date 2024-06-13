@@ -28,7 +28,7 @@
         "SkipOnFailure": false
     },
 	{
-        "UpdateStageName": "Create AppData Symlink",
+        "UpdateStageName": "Create AppData Symbolic Link",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
@@ -36,7 +36,7 @@
         "SkipOnFailure": false
     },
 	{
-        "UpdateStageName": "Create AppData Symlink",
+        "UpdateStageName": "Create AppData Symbolic Link",
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "Executable",
         "UpdateSourceData": "cmd.exe",
