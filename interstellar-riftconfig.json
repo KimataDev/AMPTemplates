@@ -99,24 +99,10 @@
 		}
 	},
 	{
-		"DisplayName": "Proton GE Release",
-		"Category": "SteamCMD and Updates",
-		"Description": "Sets the Proton GE release build to install. If \"Specific version\" is selected, the version must be set under Specific Proton GE Release Version. Update the server after changing this setting",
-		"Keywords": "proton,release,latest,specific",
-		"FieldName": "ProtonRelease",
-		"InputType": "enum",
-		"ParamFieldName": "ProtonRelease",
-		"DefaultValue": "latest",
-		"EnumValues": {
-			"latest": "Latest (default)",
-			"specificversion": "Specific version"
-		}
-	},
-	{
 		"DisplayName": "Welcome Popup",
 		"Category": "Interstellar Rift Server Settings",
-		"Description": "If enabled, joining Users get a Welcome Popup",
-		"Keywords": "list,server",
+		"Description": "If enabled, joining users get a welcome popup",
+		"Keywords": "welcome,popup",
 		"FieldName": "EnableServerWelcomePopup",
 		"InputType": "checkbox",
 		"ParamFieldName": "$.EnableServerWelcomePopup",
@@ -130,11 +116,11 @@
 		"DisplayName": "Welcome Popup Title",
 		"Category": "Interstellar Rift Server Settings",
 		"Description": "Sets the title of the welcome popup",
-		"Keywords": "Popup,title",
+		"Keywords": "welcome,popup,title",
 		"FieldName": "ServerWelcomePopupMessageTitle",
 		"InputType": "text",
-		"ParamFieldName": "$.GalaxyName",
-		"DefaultValue": "Welcome Message",
+		"ParamFieldName": "$.ServerWelcomePopupMessageTitle",
+		"DefaultValue": "Welcome Title",
 		"EnumValues": {
 			
 		}
@@ -143,13 +129,27 @@
 		"DisplayName": "Welcome Popup Text",
 		"Category": "Interstellar Rift Server Settings",
 		"Description": "Sets the text of the welcome popup",
-		"Keywords": "Popup,text",
+		"Keywords": "welcome,popup,text",
 		"FieldName": "ServerWelcomePopupMessageText",
 		"InputType": "text",
 		"ParamFieldName": "$.ServerWelcomePopupMessageText",
 		"DefaultValue": "Welcome Text",
 		"EnumValues": {
 			
+		}
+	},
+	{
+		"DisplayName": "Proton GE Release",
+		"Category": "SteamCMD and Updates",
+		"Description": "Sets the Proton GE release build to install. If \"Specific version\" is selected, the version must be set under Specific Proton GE Release Version. Update the server after changing this setting",
+		"Keywords": "proton,release,latest,specific",
+		"FieldName": "ProtonRelease",
+		"InputType": "enum",
+		"ParamFieldName": "ProtonRelease",
+		"DefaultValue": "latest",
+		"EnumValues": {
+			"latest": "Latest (default)",
+			"specificversion": "Specific version"
 		}
 	},
 	{
