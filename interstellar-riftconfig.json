@@ -120,7 +120,7 @@
 		"FieldName": "ServerWelcomePopupMessageTitle",
 		"InputType": "text",
 		"ParamFieldName": "$.ServerWelcomePopupMessageTitle",
-		"DefaultValue": "Welcome Title",
+		"DefaultValue": "Welcome",
 		"EnumValues": {
 			
 		}
@@ -133,7 +133,7 @@
 		"FieldName": "ServerWelcomePopupMessageText",
 		"InputType": "text",
 		"ParamFieldName": "$.ServerWelcomePopupMessageText",
-		"DefaultValue": "Welcome Text",
+		"DefaultValue": "Welcome to IsR Server!",
 		"EnumValues": {
 			
 		}
