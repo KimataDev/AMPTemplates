@@ -70,7 +70,7 @@
 	{
 		"DisplayName": "Server Flags",
 		"Category": "Interstellar Rift Server Settings",
-		"Description": "Sets the server flag. Flags are not well documented, but 0 is standard, 8 is PvE",
+		"Description": "Sets the server flag. Flags are not well documented, but 0 is standard, 8 is PvP",
 		"Keywords": "server,flag",
 		"FieldName": "Flags",
 		"InputType": "number",
